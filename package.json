@@ -4,16 +4,18 @@
   "description": "A set of icons representing programming languages, designing & development tools.",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf dist && mkdir dist",
-    "svgo": "svgo -f src/icons/ --config config.yml",
-    "fonts": "icon-font-generator src/icons/*.svg -o dist -n nonicon -p nonicon --height 1000 --center --descent 200 --json false --types 'ttf'",
-    "dev": "yarn clean && yarn svgo && yarn fonts"
+    "clean": "rm -rf dist && mkdir -p dist/icons",
+    "svgo": "svgo -f dist/icons/ --config config.yml",
+    "move8": "cp ~/.ghq/github.com/primer/octicons/icons/*-16.svg dist/icons/",
+    "move9": "cp src/icons/*.svg dist/icons/",
+    "fonts": "icon-font-generator dist/icons/*.svg -o dist -n nonicon -p nonicon --height 1000 --center --descent 200 --codepoints src/template/mapping.json --json false --types 'ttf'",
+    "dev": "yarn clean && yarn move8 && yarn move9 && yarn svgo && yarn fonts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yamatsum/nonicons.git"
   },
-  "author": "",
+  "author": "yamatsum",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yamatsum/nonicons/issues"
