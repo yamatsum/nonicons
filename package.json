@@ -1,0 +1,26 @@
+{
+  "name": "nonicons",
+  "version": "0.0.1",
+  "description": "A set of icons representing programming languages, designing & development tools.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist && mkdir dist",
+    "svgo": "svgo -f src/icons/ --config config.yml",
+    "fonts": "icon-font-generator src/icons/*.svg -o dist -n nonicon -p nonicon --height 1000 --center --descent 200 --json false --types 'ttf'",
+    "dev": "yarn clean && yarn svgo && yarn fonts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamatsum/nonicons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yamatsum/nonicons/issues"
+  },
+  "homepage": "https://github.com/yamatsum/nonicons#readme",
+  "devDependencies": {
+    "icon-font-generator": "^2.1.10",
+    "svgo": "^1.3.2"
+  }
+}
