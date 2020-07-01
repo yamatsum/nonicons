@@ -1,6 +1,6 @@
 @font-face {
     font-family: "nonicon";
-    src: url("./nonicon.ttf?647df5cfae80cbdb765ac20ad67ba511") format("truetype");
+    src: url("./nonicon.ttf?8d6858f571a28e3876cc004a4a928c63") format("truetype");
 }
 
 i[class^="nonicon-"]:before, i[class*=" nonicon-"]:before {
@@ -682,4 +682,67 @@ i[class^="nonicon-"]:before, i[class*=" nonicon-"]:before {
 }
 .nonicon-yaml-16:before {
     content: "\11187";
+}
+.nonicon-backbone-16:before {
+    content: "\f101";
+}
+.nonicon-c-16:before {
+    content: "\f102";
+}
+.nonicon-c-plusplus-16:before {
+    content: "\f103";
+}
+.nonicon-c-sharp-16:before {
+    content: "\f104";
+}
+.nonicon-console-16:before {
+    content: "\f105";
+}
+.nonicon-dart-16:before {
+    content: "\f106";
+}
+.nonicon-elm-16:before {
+    content: "\f107";
+}
+.nonicon-go-16:before {
+    content: "\f108";
+}
+.nonicon-java-16:before {
+    content: "\f109";
+}
+.nonicon-lua-16:before {
+    content: "\f10a";
+}
+.nonicon-nginx-16:before {
+    content: "\f10b";
+}
+.nonicon-npm-16:before {
+    content: "\f10c";
+}
+.nonicon-perl-16:before {
+    content: "\f10d";
+}
+.nonicon-php-16:before {
+    content: "\f10e";
+}
+.nonicon-r-16:before {
+    content: "\f10f";
+}
+.nonicon-require-16:before {
+    content: "\f110";
+}
+.nonicon-rust-16:before {
+    content: "\f111";
+}
+.nonicon-scala-16:before {
+    content: "\f112";
+}
+.nonicon-swift-16:before {
+    content: "\f113";
+}
+.nonicon-toml-16:before {
+    content: "\f114";
+}
+.nonicon-yarn-16:before {
+    content: "\f115";
 }
