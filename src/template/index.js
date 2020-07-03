@@ -1,6 +1,9 @@
 const opts = require("minimist")(process.argv.slice(2));
-const fs = require("fs");
+const fs = require("fs").promises;
 const path = require("path");
+
+const OCTICON_CODEPOINST = 60000;
+const NONICON_CODEPOINST = 70000;
 
 const outputPath = opts.o || "mapping.json";
 const mapping = {};
@@ -32,13 +35,20 @@ if (!opts.f || typeof opts.f !== "string") {
 }
 const stats = isExistFile(outputPath);
 
-fs.readdir(opts.f, (err, files) => {
-  files.filter(file => file.match(/-16/)).forEach((file, index) => {
-    mapping[path.basename(file, ".svg")] = String(60000 + index);
+(async () => {
+  const octiconsFiles = await fs.readdir(opts.f);
+  octiconsFiles.filter(file => file.match(/-8|-16/)).forEach((file, index) => {
+    mapping[path.basename(file, ".svg")] = String(OCTICON_CODEPOINST + index);
   });
+
+  const noniconsFiles = await fs.readdir("../icons/");
+  noniconsFiles.filter(file => file.match(/-8|-16/)).forEach((file, index) => {
+    mapping[path.basename(file, ".svg")] = String(NONICON_CODEPOINST + index);
+  });
+
   if (stats) {
     console.log("file is exist.");
   } else {
     writeFile(outputPath, mapping);
   }
-});
+})();
