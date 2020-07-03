@@ -1,6 +1,6 @@
 @font-face {
     font-family: "nonicon";
-    src: url("./nonicon.ttf?8d6858f571a28e3876cc004a4a928c63") format("truetype");
+    src: url("./nonicon.ttf?91b710d54fb79c99c44ae6545f8443ae") format("truetype");
 }
 
 i[class^="nonicon-"]:before, i[class*=" nonicon-"]:before {
@@ -695,7 +695,7 @@ i[class^="nonicon-"]:before, i[class*=" nonicon-"]:before {
 .nonicon-c-sharp-16:before {
     content: "\f104";
 }
-.nonicon-console-16:before {
+.nonicon-console-8:before {
     content: "\f105";
 }
 .nonicon-dart-16:before {
@@ -728,21 +728,24 @@ i[class^="nonicon-"]:before, i[class*=" nonicon-"]:before {
 .nonicon-r-16:before {
     content: "\f10f";
 }
-.nonicon-require-16:before {
+.nonicon-rectangle-16:before {
     content: "\f110";
 }
-.nonicon-rust-16:before {
+.nonicon-require-16:before {
     content: "\f111";
 }
-.nonicon-scala-16:before {
+.nonicon-rust-16:before {
     content: "\f112";
 }
-.nonicon-swift-16:before {
+.nonicon-scala-16:before {
     content: "\f113";
 }
-.nonicon-toml-16:before {
+.nonicon-swift-16:before {
     content: "\f114";
 }
-.nonicon-yarn-16:before {
+.nonicon-toml-16:before {
     content: "\f115";
+}
+.nonicon-yarn-16:before {
+    content: "\f116";
 }
