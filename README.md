@@ -4,4 +4,4 @@
 
 Nonicons are a set of SVG icons representing programming languages, designing & development tools.
 
-Nonicons are influenced by Octicons.
+Nonicons are inspired by [Octicons](https://github.com/primer/octicons).
