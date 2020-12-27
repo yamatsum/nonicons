@@ -5,7 +5,7 @@ const path = require("path");
 const OCTICON_CODEPOINST = 60000;
 const NONICON_CODEPOINST = 70000;
 
-const outputPath = opts.o || "mapping.json";
+const outputPath = opts.o || "icon-codepoints.json";
 const mapping = {};
 
 // ファイルの書き込み関数
@@ -29,19 +29,15 @@ function isExistFile(file) {
   }
 }
 
-if (!opts.f || typeof opts.f !== "string") {
-  console.log("use -f to specify your octicons icons path");
-  return;
-}
 const stats = isExistFile(outputPath);
 
 (async () => {
-  const octiconsFiles = await fs.readdir(opts.f);
+  const octiconsFiles = await fs.readdir("../icons/octicons/");
   octiconsFiles.filter(file => file.match(/-8|-16/)).forEach((file, index) => {
     mapping[path.basename(file, ".svg")] = String(OCTICON_CODEPOINST + index);
   });
 
-  const noniconsFiles = await fs.readdir("../icons/");
+  const noniconsFiles = await fs.readdir("../icons/nonicons/");
   noniconsFiles.filter(file => file.match(/-8|-16/)).forEach((file, index) => {
     mapping[path.basename(file, ".svg")] = String(NONICON_CODEPOINST + index);
   });
