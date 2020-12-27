@@ -9,3 +9,7 @@ Nonicons are inspired by [Octicons](https://github.com/primer/octicons).
 ## Screenshot
 
 ![screenshot](https://github.com/yamatsum/nonicons/blob/img/src/img/screenshot.png?raw=true)
+
+## Other
+
+Use [Fill Rule Editor](https://www.figma.com/community/plugin/771155994770327940/Fill-Rule-Editor)
