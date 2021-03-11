@@ -1,10 +1,10 @@
 module.exports = {
-  inputDir: './dist/icons',
-  outputDir: './dist',
+	inputDir: './dist/icons',
+	outputDir: './dist',
 	fontTypes: ['ttf'],
 	pathOptions: {
-    json: './src/template/nonicon.json'
-  },
+		json: './src/template/nonicon.json'
+	},
 	codepoints: {
 		"alert-16": 61697,
 		"angular-16": 61698,
@@ -256,6 +256,10 @@ module.exports = {
 		"x-circle-fill-16": 61944,
 		"yaml-16": 61945,
 		"yarn-16": 61946,
-		"zap-16": 61947
+		"zap-16": 61947,
+		"multi-select-16": 61948,
+		"number-16": 61949,
+		"trash-16": 61950,
+		"video-16": 61951
 	}
 };

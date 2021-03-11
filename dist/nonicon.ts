@@ -34,6 +34,7 @@ export type NoniconId =
   | "chevron-up-16"
   | "circle-16"
   | "circle-slash-16"
+  | "class-16"
   | "clippy-16"
   | "clock-16"
   | "code-16"
@@ -41,6 +42,7 @@ export type NoniconId =
   | "code-square-16"
   | "comment-16"
   | "comment-discussion-16"
+  | "constant-16"
   | "container-16"
   | "cpu-16"
   | "credit-card-16"
@@ -68,6 +70,7 @@ export type NoniconId =
   | "elm-16"
   | "eye-16"
   | "eye-closed-16"
+  | "field-16"
   | "file-16"
   | "file-badge-16"
   | "file-binary-16"
@@ -107,6 +110,7 @@ export type NoniconId =
   | "inbox-16"
   | "infinity-16"
   | "info-16"
+  | "interface-16"
   | "issue-closed-16"
   | "issue-opened-16"
   | "issue-reopened-16"
@@ -116,6 +120,7 @@ export type NoniconId =
   | "json-16"
   | "kebab-horizontal-16"
   | "key-16"
+  | "keyword-16"
   | "kotlin-16"
   | "kubernetes-16"
   | "law-16"
@@ -201,6 +206,7 @@ export type NoniconId =
   | "sign-out-16"
   | "skip-16"
   | "smiley-16"
+  | "snippet-16"
   | "square-16"
   | "square-fill-16"
   | "squirrel-16"
@@ -209,6 +215,7 @@ export type NoniconId =
   | "stop-16"
   | "stopwatch-16"
   | "strikethrough-16"
+  | "struct-16"
   | "sun-16"
   | "swift-16"
   | "sync-16"
@@ -227,6 +234,7 @@ export type NoniconId =
   | "triangle-left-16"
   | "triangle-right-16"
   | "triangle-up-16"
+  | "type-16"
   | "typescript-16"
   | "typography-16"
   | "unfold-16"
@@ -234,6 +242,7 @@ export type NoniconId =
   | "unmute-16"
   | "unverified-16"
   | "upload-16"
+  | "variable-16"
   | "verified-16"
   | "versions-16"
   | "video-16"
@@ -290,6 +299,7 @@ export type NoniconKey =
   | "ChevronUp_16"
   | "Circle_16"
   | "CircleSlash_16"
+  | "Class_16"
   | "Clippy_16"
   | "Clock_16"
   | "Code_16"
@@ -297,6 +307,7 @@ export type NoniconKey =
   | "CodeSquare_16"
   | "Comment_16"
   | "CommentDiscussion_16"
+  | "Constant_16"
   | "Container_16"
   | "Cpu_16"
   | "CreditCard_16"
@@ -324,6 +335,7 @@ export type NoniconKey =
   | "Elm_16"
   | "Eye_16"
   | "EyeClosed_16"
+  | "Field_16"
   | "File_16"
   | "FileBadge_16"
   | "FileBinary_16"
@@ -363,6 +375,7 @@ export type NoniconKey =
   | "Inbox_16"
   | "Infinity_16"
   | "Info_16"
+  | "Interface_16"
   | "IssueClosed_16"
   | "IssueOpened_16"
   | "IssueReopened_16"
@@ -372,6 +385,7 @@ export type NoniconKey =
   | "Json_16"
   | "KebabHorizontal_16"
   | "Key_16"
+  | "Keyword_16"
   | "Kotlin_16"
   | "Kubernetes_16"
   | "Law_16"
@@ -457,6 +471,7 @@ export type NoniconKey =
   | "SignOut_16"
   | "Skip_16"
   | "Smiley_16"
+  | "Snippet_16"
   | "Square_16"
   | "SquareFill_16"
   | "Squirrel_16"
@@ -465,6 +480,7 @@ export type NoniconKey =
   | "Stop_16"
   | "Stopwatch_16"
   | "Strikethrough_16"
+  | "Struct_16"
   | "Sun_16"
   | "Swift_16"
   | "Sync_16"
@@ -483,6 +499,7 @@ export type NoniconKey =
   | "TriangleLeft_16"
   | "TriangleRight_16"
   | "TriangleUp_16"
+  | "Type_16"
   | "Typescript_16"
   | "Typography_16"
   | "Unfold_16"
@@ -490,6 +507,7 @@ export type NoniconKey =
   | "Unmute_16"
   | "Unverified_16"
   | "Upload_16"
+  | "Variable_16"
   | "Verified_16"
   | "Versions_16"
   | "Video_16"
@@ -546,6 +564,7 @@ export enum Nonicon {
   ChevronUp_16 = "chevron-up-16",
   Circle_16 = "circle-16",
   CircleSlash_16 = "circle-slash-16",
+  Class_16 = "class-16",
   Clippy_16 = "clippy-16",
   Clock_16 = "clock-16",
   Code_16 = "code-16",
@@ -553,6 +572,7 @@ export enum Nonicon {
   CodeSquare_16 = "code-square-16",
   Comment_16 = "comment-16",
   CommentDiscussion_16 = "comment-discussion-16",
+  Constant_16 = "constant-16",
   Container_16 = "container-16",
   Cpu_16 = "cpu-16",
   CreditCard_16 = "credit-card-16",
@@ -580,6 +600,7 @@ export enum Nonicon {
   Elm_16 = "elm-16",
   Eye_16 = "eye-16",
   EyeClosed_16 = "eye-closed-16",
+  Field_16 = "field-16",
   File_16 = "file-16",
   FileBadge_16 = "file-badge-16",
   FileBinary_16 = "file-binary-16",
@@ -619,6 +640,7 @@ export enum Nonicon {
   Inbox_16 = "inbox-16",
   Infinity_16 = "infinity-16",
   Info_16 = "info-16",
+  Interface_16 = "interface-16",
   IssueClosed_16 = "issue-closed-16",
   IssueOpened_16 = "issue-opened-16",
   IssueReopened_16 = "issue-reopened-16",
@@ -628,6 +650,7 @@ export enum Nonicon {
   Json_16 = "json-16",
   KebabHorizontal_16 = "kebab-horizontal-16",
   Key_16 = "key-16",
+  Keyword_16 = "keyword-16",
   Kotlin_16 = "kotlin-16",
   Kubernetes_16 = "kubernetes-16",
   Law_16 = "law-16",
@@ -713,6 +736,7 @@ export enum Nonicon {
   SignOut_16 = "sign-out-16",
   Skip_16 = "skip-16",
   Smiley_16 = "smiley-16",
+  Snippet_16 = "snippet-16",
   Square_16 = "square-16",
   SquareFill_16 = "square-fill-16",
   Squirrel_16 = "squirrel-16",
@@ -721,6 +745,7 @@ export enum Nonicon {
   Stop_16 = "stop-16",
   Stopwatch_16 = "stopwatch-16",
   Strikethrough_16 = "strikethrough-16",
+  Struct_16 = "struct-16",
   Sun_16 = "sun-16",
   Swift_16 = "swift-16",
   Sync_16 = "sync-16",
@@ -739,6 +764,7 @@ export enum Nonicon {
   TriangleLeft_16 = "triangle-left-16",
   TriangleRight_16 = "triangle-right-16",
   TriangleUp_16 = "triangle-up-16",
+  Type_16 = "type-16",
   Typescript_16 = "typescript-16",
   Typography_16 = "typography-16",
   Unfold_16 = "unfold-16",
@@ -746,6 +772,7 @@ export enum Nonicon {
   Unmute_16 = "unmute-16",
   Unverified_16 = "unverified-16",
   Upload_16 = "upload-16",
+  Variable_16 = "variable-16",
   Verified_16 = "verified-16",
   Versions_16 = "versions-16",
   Video_16 = "video-16",
@@ -803,6 +830,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.ChevronUp_16]: "61729",
   [Nonicon.Circle_16]: "61730",
   [Nonicon.CircleSlash_16]: "61731",
+  [Nonicon.Class_16]: "61952",
   [Nonicon.Clippy_16]: "61732",
   [Nonicon.Clock_16]: "61733",
   [Nonicon.Code_16]: "61734",
@@ -810,6 +838,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.CodeSquare_16]: "61736",
   [Nonicon.Comment_16]: "61737",
   [Nonicon.CommentDiscussion_16]: "61738",
+  [Nonicon.Constant_16]: "61953",
   [Nonicon.Container_16]: "61739",
   [Nonicon.Cpu_16]: "61740",
   [Nonicon.CreditCard_16]: "61741",
@@ -837,6 +866,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.Elm_16]: "61763",
   [Nonicon.Eye_16]: "61764",
   [Nonicon.EyeClosed_16]: "61765",
+  [Nonicon.Field_16]: "61954",
   [Nonicon.File_16]: "61766",
   [Nonicon.FileBadge_16]: "61767",
   [Nonicon.FileBinary_16]: "61768",
@@ -876,6 +906,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.Inbox_16]: "61802",
   [Nonicon.Infinity_16]: "61803",
   [Nonicon.Info_16]: "61804",
+  [Nonicon.Interface_16]: "61955",
   [Nonicon.IssueClosed_16]: "61805",
   [Nonicon.IssueOpened_16]: "61806",
   [Nonicon.IssueReopened_16]: "61807",
@@ -885,6 +916,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.Json_16]: "61811",
   [Nonicon.KebabHorizontal_16]: "61812",
   [Nonicon.Key_16]: "61813",
+  [Nonicon.Keyword_16]: "61956",
   [Nonicon.Kotlin_16]: "61814",
   [Nonicon.Kubernetes_16]: "61815",
   [Nonicon.Law_16]: "61816",
@@ -970,6 +1002,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.SignOut_16]: "61894",
   [Nonicon.Skip_16]: "61895",
   [Nonicon.Smiley_16]: "61896",
+  [Nonicon.Snippet_16]: "61957",
   [Nonicon.Square_16]: "61897",
   [Nonicon.SquareFill_16]: "61898",
   [Nonicon.Squirrel_16]: "61899",
@@ -978,6 +1011,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.Stop_16]: "61902",
   [Nonicon.Stopwatch_16]: "61903",
   [Nonicon.Strikethrough_16]: "61904",
+  [Nonicon.Struct_16]: "61958",
   [Nonicon.Sun_16]: "61905",
   [Nonicon.Swift_16]: "61906",
   [Nonicon.Sync_16]: "61907",
@@ -996,6 +1030,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.TriangleLeft_16]: "61920",
   [Nonicon.TriangleRight_16]: "61921",
   [Nonicon.TriangleUp_16]: "61922",
+  [Nonicon.Type_16]: "61959",
   [Nonicon.Typescript_16]: "61923",
   [Nonicon.Typography_16]: "61924",
   [Nonicon.Unfold_16]: "61925",
@@ -1003,6 +1038,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.Unmute_16]: "61927",
   [Nonicon.Unverified_16]: "61928",
   [Nonicon.Upload_16]: "61929",
+  [Nonicon.Variable_16]: "61960",
   [Nonicon.Verified_16]: "61930",
   [Nonicon.Versions_16]: "61931",
   [Nonicon.Video_16]: "61951",

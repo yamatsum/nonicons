@@ -253,5 +253,14 @@
     "multi-select-16": 61948,
     "number-16": 61949,
     "trash-16": 61950,
-    "video-16": 61951
+    "video-16": 61951,
+    "class-16": 61952,
+    "constant-16": 61953,
+    "field-16": 61954,
+    "interface-16": 61955,
+    "keyword-16": 61956,
+    "snippet-16": 61957,
+    "struct-16": 61958,
+    "type-16": 61959,
+    "variable-16": 61960
 }
