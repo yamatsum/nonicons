@@ -139,6 +139,7 @@ export type NoniconId =
   | "mirror-16"
   | "moon-16"
   | "mortar-board-16"
+  | "multi-select-16"
   | "mute-16"
   | "nginx-16"
   | "no-entry-16"
@@ -146,6 +147,7 @@ export type NoniconId =
   | "north-star-16"
   | "note-16"
   | "npm-16"
+  | "number-16"
   | "octoface-16"
   | "organization-16"
   | "package-16"
@@ -220,7 +222,7 @@ export type NoniconId =
   | "tmux-16"
   | "toml-16"
   | "tools-16"
-  | "trashcan-16"
+  | "trash-16"
   | "triangle-down-16"
   | "triangle-left-16"
   | "triangle-right-16"
@@ -234,6 +236,7 @@ export type NoniconId =
   | "upload-16"
   | "verified-16"
   | "versions-16"
+  | "video-16"
   | "vim-16"
   | "vim-command-mode-16"
   | "vim-insert-mode-16"
@@ -392,6 +395,7 @@ export type NoniconKey =
   | "Mirror_16"
   | "Moon_16"
   | "MortarBoard_16"
+  | "MultiSelect_16"
   | "Mute_16"
   | "Nginx_16"
   | "NoEntry_16"
@@ -399,6 +403,7 @@ export type NoniconKey =
   | "NorthStar_16"
   | "Note_16"
   | "Npm_16"
+  | "Number_16"
   | "Octoface_16"
   | "Organization_16"
   | "Package_16"
@@ -473,7 +478,7 @@ export type NoniconKey =
   | "Tmux_16"
   | "Toml_16"
   | "Tools_16"
-  | "Trashcan_16"
+  | "Trash_16"
   | "TriangleDown_16"
   | "TriangleLeft_16"
   | "TriangleRight_16"
@@ -487,6 +492,7 @@ export type NoniconKey =
   | "Upload_16"
   | "Verified_16"
   | "Versions_16"
+  | "Video_16"
   | "Vim_16"
   | "VimCommandMode_16"
   | "VimInsertMode_16"
@@ -645,6 +651,7 @@ export enum Nonicon {
   Mirror_16 = "mirror-16",
   Moon_16 = "moon-16",
   MortarBoard_16 = "mortar-board-16",
+  MultiSelect_16 = "multi-select-16",
   Mute_16 = "mute-16",
   Nginx_16 = "nginx-16",
   NoEntry_16 = "no-entry-16",
@@ -652,6 +659,7 @@ export enum Nonicon {
   NorthStar_16 = "north-star-16",
   Note_16 = "note-16",
   Npm_16 = "npm-16",
+  Number_16 = "number-16",
   Octoface_16 = "octoface-16",
   Organization_16 = "organization-16",
   Package_16 = "package-16",
@@ -726,7 +734,7 @@ export enum Nonicon {
   Tmux_16 = "tmux-16",
   Toml_16 = "toml-16",
   Tools_16 = "tools-16",
-  Trashcan_16 = "trashcan-16",
+  Trash_16 = "trash-16",
   TriangleDown_16 = "triangle-down-16",
   TriangleLeft_16 = "triangle-left-16",
   TriangleRight_16 = "triangle-right-16",
@@ -740,6 +748,7 @@ export enum Nonicon {
   Upload_16 = "upload-16",
   Verified_16 = "verified-16",
   Versions_16 = "versions-16",
+  Video_16 = "video-16",
   Vim_16 = "vim-16",
   VimCommandMode_16 = "vim-command-mode-16",
   VimInsertMode_16 = "vim-insert-mode-16",
@@ -899,6 +908,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.Mirror_16]: "61834",
   [Nonicon.Moon_16]: "61835",
   [Nonicon.MortarBoard_16]: "61836",
+  [Nonicon.MultiSelect_16]: "61948",
   [Nonicon.Mute_16]: "61837",
   [Nonicon.Nginx_16]: "61838",
   [Nonicon.NoEntry_16]: "61839",
@@ -906,6 +916,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.NorthStar_16]: "61841",
   [Nonicon.Note_16]: "61842",
   [Nonicon.Npm_16]: "61843",
+  [Nonicon.Number_16]: "61949",
   [Nonicon.Octoface_16]: "61844",
   [Nonicon.Organization_16]: "61845",
   [Nonicon.Package_16]: "61846",
@@ -980,7 +991,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.Tmux_16]: "61915",
   [Nonicon.Toml_16]: "61916",
   [Nonicon.Tools_16]: "61917",
-  [Nonicon.Trashcan_16]: "61918",
+  [Nonicon.Trash_16]: "61950",
   [Nonicon.TriangleDown_16]: "61919",
   [Nonicon.TriangleLeft_16]: "61920",
   [Nonicon.TriangleRight_16]: "61921",
@@ -994,6 +1005,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.Upload_16]: "61929",
   [Nonicon.Verified_16]: "61930",
   [Nonicon.Versions_16]: "61931",
+  [Nonicon.Video_16]: "61951",
   [Nonicon.Vim_16]: "61932",
   [Nonicon.VimCommandMode_16]: "61933",
   [Nonicon.VimInsertMode_16]: "61934",

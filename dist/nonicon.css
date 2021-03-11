@@ -1,6 +1,6 @@
 @font-face {
     font-family: "nonicon";
-    src: url("./nonicon.ttf?7144e54dc811644cc59ec0657603d4ab") format("truetype");
+    src: url("./nonicon.ttf?6a81f9329736d1b9d3760ad69e6b97fe") format("truetype");
 }
 
 i[class^="nonicon-"]:before, i[class*=" nonicon-"]:before {
@@ -766,4 +766,16 @@ i[class^="nonicon-"]:before, i[class*=" nonicon-"]:before {
 }
 .nonicon-zap-16:before {
     content: "\f1fb";
+}
+.nonicon-multi-select-16:before {
+    content: "\f1fc";
+}
+.nonicon-number-16:before {
+    content: "\f1fd";
+}
+.nonicon-trash-16:before {
+    content: "\f1fe";
+}
+.nonicon-video-16:before {
+    content: "\f1ff";
 }
