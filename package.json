@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/yamatsum/nonicons#readme",
   "dependencies": {
-    "fantasticon": "^1.0.26"
+    "fantasticon": "^1.1.1"
   }
 }
