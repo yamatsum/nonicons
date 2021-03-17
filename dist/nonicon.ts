@@ -249,7 +249,7 @@ export type NoniconId =
   | "vim-16"
   | "vim-command-mode-16"
   | "vim-insert-mode-16"
-  | "vim-nomal-mode-16"
+  | "vim-normal-mode-16"
   | "vim-replace-mode-16"
   | "vim-select-mode-16"
   | "vim-terminal-mode-16"
@@ -779,7 +779,7 @@ export enum Nonicon {
   Vim_16 = "vim-16",
   VimCommandMode_16 = "vim-command-mode-16",
   VimInsertMode_16 = "vim-insert-mode-16",
-  VimNomalMode_16 = "vim-nomal-mode-16",
+  VimNomalMode_16 = "vim-normal-mode-16",
   VimReplaceMode_16 = "vim-replace-mode-16",
   VimSelectMode_16 = "vim-select-mode-16",
   VimTerminalMode_16 = "vim-terminal-mode-16",
