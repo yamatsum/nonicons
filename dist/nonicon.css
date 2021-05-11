@@ -1,6 +1,6 @@
 @font-face {
     font-family: "nonicon";
-    src: url("./nonicon.ttf?ba8741a0d32e40881eced6f1b9526d69") format("truetype");
+    src: url("./nonicon.ttf?44adfc486c36234eab173cf6683b7da9") format("truetype");
 }
 
 i[class^="nonicon-"]:before, i[class*=" nonicon-"]:before {
@@ -779,60 +779,60 @@ i[class^="nonicon-"]:before, i[class*=" nonicon-"]:before {
 .nonicon-video-16:before {
     content: "\f1ff";
 }
-.nonicon-blocked-16:before {
+.nonicon-class-16:before {
     content: "\f200";
 }
-.nonicon-class-16:before {
+.nonicon-constant-16:before {
     content: "\f201";
 }
-.nonicon-codescan-16:before {
+.nonicon-field-16:before {
     content: "\f202";
 }
-.nonicon-codescan-checkmark-16:before {
+.nonicon-interface-16:before {
     content: "\f203";
 }
-.nonicon-codespaces-16:before {
+.nonicon-keyword-16:before {
     content: "\f204";
 }
-.nonicon-constant-16:before {
+.nonicon-snippet-16:before {
     content: "\f205";
 }
-.nonicon-dependabot-16:before {
+.nonicon-struct-16:before {
     content: "\f206";
 }
-.nonicon-duplicate-16:before {
+.nonicon-type-16:before {
     content: "\f207";
 }
-.nonicon-field-16:before {
+.nonicon-variable-16:before {
     content: "\f208";
 }
-.nonicon-interface-16:before {
+.nonicon-blocked-16:before {
     content: "\f209";
 }
-.nonicon-keyword-16:before {
+.nonicon-codescan-16:before {
     content: "\f20a";
 }
-.nonicon-person-add-16:before {
+.nonicon-codescan-checkmark-16:before {
     content: "\f20b";
 }
-.nonicon-sidebar-collapse-16:before {
+.nonicon-codespaces-16:before {
     content: "\f20c";
 }
-.nonicon-sidebar-expand-16:before {
+.nonicon-dependabot-16:before {
     content: "\f20d";
 }
-.nonicon-snippet-16:before {
+.nonicon-duplicate-16:before {
     content: "\f20e";
 }
-.nonicon-struct-16:before {
+.nonicon-person-add-16:before {
     content: "\f20f";
 }
-.nonicon-table-16:before {
+.nonicon-sidebar-collapse-16:before {
     content: "\f210";
 }
-.nonicon-type-16:before {
+.nonicon-sidebar-expand-16:before {
     content: "\f211";
 }
-.nonicon-variable-16:before {
+.nonicon-table-16:before {
     content: "\f212";
 }
