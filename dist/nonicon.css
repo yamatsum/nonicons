@@ -1,809 +1,838 @@
 @font-face {
-  font-family: "nonicon";
-  src: url("./nonicon.ttf?fcd0f612e312dc71ffb7adc877a134c9") format("truetype");
+    font-family: "nonicon";
+    src: url("./nonicon.ttf?ba8741a0d32e40881eced6f1b9526d69") format("truetype");
 }
 
-i[class^="nonicon-"]:before,
-i[class*=" nonicon-"]:before {
-  font-family: nonicon !important;
-  font-style: normal;
-  font-weight: normal !important;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+i[class^="nonicon-"]:before, i[class*=" nonicon-"]:before {
+    font-family: nonicon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .nonicon-alert-16:before {
-  content: "\f101";
+    content: "\f101";
 }
 .nonicon-angular-16:before {
-  content: "\f102";
+    content: "\f102";
 }
 .nonicon-archive-16:before {
-  content: "\f103";
+    content: "\f103";
 }
 .nonicon-arrow-both-16:before {
-  content: "\f104";
+    content: "\f104";
 }
 .nonicon-arrow-down-16:before {
-  content: "\f105";
+    content: "\f105";
 }
 .nonicon-arrow-left-16:before {
-  content: "\f106";
+    content: "\f106";
 }
 .nonicon-arrow-right-16:before {
-  content: "\f107";
+    content: "\f107";
 }
 .nonicon-arrow-switch-16:before {
-  content: "\f108";
+    content: "\f108";
 }
 .nonicon-arrow-up-16:before {
-  content: "\f109";
+    content: "\f109";
 }
 .nonicon-backbone-16:before {
-  content: "\f10a";
+    content: "\f10a";
 }
 .nonicon-beaker-16:before {
-  content: "\f10b";
+    content: "\f10b";
 }
 .nonicon-bell-16:before {
-  content: "\f10c";
+    content: "\f10c";
 }
 .nonicon-bell-slash-16:before {
-  content: "\f10d";
+    content: "\f10d";
 }
 .nonicon-bold-16:before {
-  content: "\f10e";
+    content: "\f10e";
 }
 .nonicon-book-16:before {
-  content: "\f10f";
+    content: "\f10f";
 }
 .nonicon-bookmark-16:before {
-  content: "\f110";
+    content: "\f110";
 }
 .nonicon-bookmark-slash-16:before {
-  content: "\f111";
+    content: "\f111";
 }
 .nonicon-briefcase-16:before {
-  content: "\f112";
+    content: "\f112";
 }
 .nonicon-broadcast-16:before {
-  content: "\f113";
+    content: "\f113";
 }
 .nonicon-browser-16:before {
-  content: "\f114";
+    content: "\f114";
 }
 .nonicon-bug-16:before {
-  content: "\f115";
+    content: "\f115";
 }
 .nonicon-c-16:before {
-  content: "\f116";
+    content: "\f116";
 }
 .nonicon-c-plusplus-16:before {
-  content: "\f117";
+    content: "\f117";
 }
 .nonicon-c-sharp-16:before {
-  content: "\f118";
+    content: "\f118";
 }
 .nonicon-calendar-16:before {
-  content: "\f119";
+    content: "\f119";
 }
 .nonicon-check-16:before {
-  content: "\f11a";
+    content: "\f11a";
 }
 .nonicon-check-circle-16:before {
-  content: "\f11b";
+    content: "\f11b";
 }
 .nonicon-check-circle-fill-16:before {
-  content: "\f11c";
+    content: "\f11c";
 }
 .nonicon-checklist-16:before {
-  content: "\f11d";
+    content: "\f11d";
 }
 .nonicon-chevron-down-16:before {
-  content: "\f11e";
+    content: "\f11e";
 }
 .nonicon-chevron-left-16:before {
-  content: "\f11f";
+    content: "\f11f";
 }
 .nonicon-chevron-right-16:before {
-  content: "\f120";
+    content: "\f120";
 }
 .nonicon-chevron-up-16:before {
-  content: "\f121";
+    content: "\f121";
 }
 .nonicon-circle-16:before {
-  content: "\f122";
+    content: "\f122";
 }
 .nonicon-circle-slash-16:before {
-  content: "\f123";
+    content: "\f123";
 }
 .nonicon-clippy-16:before {
-  content: "\f124";
+    content: "\f124";
 }
 .nonicon-clock-16:before {
-  content: "\f125";
+    content: "\f125";
 }
 .nonicon-code-16:before {
-  content: "\f126";
+    content: "\f126";
 }
 .nonicon-code-review-16:before {
-  content: "\f127";
+    content: "\f127";
 }
 .nonicon-code-square-16:before {
-  content: "\f128";
+    content: "\f128";
 }
 .nonicon-comment-16:before {
-  content: "\f129";
+    content: "\f129";
 }
 .nonicon-comment-discussion-16:before {
-  content: "\f12a";
+    content: "\f12a";
 }
 .nonicon-container-16:before {
-  content: "\f12b";
+    content: "\f12b";
 }
 .nonicon-cpu-16:before {
-  content: "\f12c";
+    content: "\f12c";
 }
 .nonicon-credit-card-16:before {
-  content: "\f12d";
+    content: "\f12d";
 }
 .nonicon-cross-reference-16:before {
-  content: "\f12e";
+    content: "\f12e";
 }
 .nonicon-css-16:before {
-  content: "\f12f";
+    content: "\f12f";
 }
 .nonicon-dart-16:before {
-  content: "\f130";
+    content: "\f130";
 }
 .nonicon-dash-16:before {
-  content: "\f131";
+    content: "\f131";
 }
 .nonicon-database-16:before {
-  content: "\f132";
+    content: "\f132";
 }
 .nonicon-desktop-download-16:before {
-  content: "\f133";
+    content: "\f133";
 }
 .nonicon-device-camera-16:before {
-  content: "\f134";
+    content: "\f134";
 }
 .nonicon-device-camera-video-16:before {
-  content: "\f135";
+    content: "\f135";
 }
 .nonicon-device-desktop-16:before {
-  content: "\f136";
+    content: "\f136";
 }
 .nonicon-device-mobile-16:before {
-  content: "\f137";
+    content: "\f137";
 }
 .nonicon-diff-16:before {
-  content: "\f138";
+    content: "\f138";
 }
 .nonicon-diff-added-16:before {
-  content: "\f139";
+    content: "\f139";
 }
 .nonicon-diff-ignored-16:before {
-  content: "\f13a";
+    content: "\f13a";
 }
 .nonicon-diff-modified-16:before {
-  content: "\f13b";
+    content: "\f13b";
 }
 .nonicon-diff-removed-16:before {
-  content: "\f13c";
+    content: "\f13c";
 }
 .nonicon-diff-renamed-16:before {
-  content: "\f13d";
+    content: "\f13d";
 }
 .nonicon-docker-16:before {
-  content: "\f13e";
+    content: "\f13e";
 }
 .nonicon-dot-16:before {
-  content: "\f13f";
+    content: "\f13f";
 }
 .nonicon-dot-fill-16:before {
-  content: "\f140";
+    content: "\f140";
 }
 .nonicon-download-16:before {
-  content: "\f141";
+    content: "\f141";
 }
 .nonicon-ellipsis-16:before {
-  content: "\f142";
+    content: "\f142";
 }
 .nonicon-elm-16:before {
-  content: "\f143";
+    content: "\f143";
 }
 .nonicon-eye-16:before {
-  content: "\f144";
+    content: "\f144";
 }
 .nonicon-eye-closed-16:before {
-  content: "\f145";
+    content: "\f145";
 }
 .nonicon-file-16:before {
-  content: "\f146";
+    content: "\f146";
 }
 .nonicon-file-badge-16:before {
-  content: "\f147";
+    content: "\f147";
 }
 .nonicon-file-binary-16:before {
-  content: "\f148";
+    content: "\f148";
 }
 .nonicon-file-code-16:before {
-  content: "\f149";
+    content: "\f149";
 }
 .nonicon-file-diff-16:before {
-  content: "\f14a";
+    content: "\f14a";
 }
 .nonicon-file-directory-16:before {
-  content: "\f14b";
+    content: "\f14b";
 }
 .nonicon-file-directory-outline-16:before {
-  content: "\f14c";
+    content: "\f14c";
 }
 .nonicon-file-submodule-16:before {
-  content: "\f14d";
+    content: "\f14d";
 }
 .nonicon-file-symlink-file-16:before {
-  content: "\f14e";
+    content: "\f14e";
 }
 .nonicon-file-zip-16:before {
-  content: "\f14f";
+    content: "\f14f";
 }
 .nonicon-filter-16:before {
-  content: "\f150";
+    content: "\f150";
 }
 .nonicon-flame-16:before {
-  content: "\f151";
+    content: "\f151";
 }
 .nonicon-fold-16:before {
-  content: "\f152";
+    content: "\f152";
 }
 .nonicon-fold-down-16:before {
-  content: "\f153";
+    content: "\f153";
 }
 .nonicon-fold-up-16:before {
-  content: "\f154";
+    content: "\f154";
 }
 .nonicon-gear-16:before {
-  content: "\f155";
+    content: "\f155";
 }
 .nonicon-gift-16:before {
-  content: "\f156";
+    content: "\f156";
 }
 .nonicon-git-branch-16:before {
-  content: "\f157";
+    content: "\f157";
 }
 .nonicon-git-commit-16:before {
-  content: "\f158";
+    content: "\f158";
 }
 .nonicon-git-compare-16:before {
-  content: "\f159";
+    content: "\f159";
 }
 .nonicon-git-merge-16:before {
-  content: "\f15a";
+    content: "\f15a";
 }
 .nonicon-git-pull-request-16:before {
-  content: "\f15b";
+    content: "\f15b";
 }
 .nonicon-globe-16:before {
-  content: "\f15c";
+    content: "\f15c";
 }
 .nonicon-go-16:before {
-  content: "\f15d";
+    content: "\f15d";
 }
 .nonicon-grabber-16:before {
-  content: "\f15e";
+    content: "\f15e";
 }
 .nonicon-graph-16:before {
-  content: "\f15f";
+    content: "\f15f";
 }
 .nonicon-heading-16:before {
-  content: "\f160";
+    content: "\f160";
 }
 .nonicon-heart-16:before {
-  content: "\f161";
+    content: "\f161";
 }
 .nonicon-heart-fill-16:before {
-  content: "\f162";
+    content: "\f162";
 }
 .nonicon-history-16:before {
-  content: "\f163";
+    content: "\f163";
 }
 .nonicon-home-16:before {
-  content: "\f164";
+    content: "\f164";
 }
 .nonicon-horizontal-rule-16:before {
-  content: "\f165";
+    content: "\f165";
 }
 .nonicon-hourglass-16:before {
-  content: "\f166";
+    content: "\f166";
 }
 .nonicon-html-16:before {
-  content: "\f167";
+    content: "\f167";
 }
 .nonicon-hubot-16:before {
-  content: "\f168";
+    content: "\f168";
 }
 .nonicon-image-16:before {
-  content: "\f169";
+    content: "\f169";
 }
 .nonicon-inbox-16:before {
-  content: "\f16a";
+    content: "\f16a";
 }
 .nonicon-infinity-16:before {
-  content: "\f16b";
+    content: "\f16b";
 }
 .nonicon-info-16:before {
-  content: "\f16c";
+    content: "\f16c";
 }
 .nonicon-issue-closed-16:before {
-  content: "\f16d";
+    content: "\f16d";
 }
 .nonicon-issue-opened-16:before {
-  content: "\f16e";
+    content: "\f16e";
 }
 .nonicon-issue-reopened-16:before {
-  content: "\f16f";
+    content: "\f16f";
 }
 .nonicon-italic-16:before {
-  content: "\f170";
+    content: "\f170";
 }
 .nonicon-java-16:before {
-  content: "\f171";
+    content: "\f171";
 }
 .nonicon-javascript-16:before {
-  content: "\f172";
+    content: "\f172";
 }
 .nonicon-json-16:before {
-  content: "\f173";
+    content: "\f173";
 }
 .nonicon-kebab-horizontal-16:before {
-  content: "\f174";
+    content: "\f174";
 }
 .nonicon-key-16:before {
-  content: "\f175";
+    content: "\f175";
 }
 .nonicon-kotlin-16:before {
-  content: "\f176";
+    content: "\f176";
 }
 .nonicon-kubernetes-16:before {
-  content: "\f177";
+    content: "\f177";
 }
 .nonicon-law-16:before {
-  content: "\f178";
+    content: "\f178";
 }
 .nonicon-light-bulb-16:before {
-  content: "\f179";
+    content: "\f179";
 }
 .nonicon-link-16:before {
-  content: "\f17a";
+    content: "\f17a";
 }
 .nonicon-link-external-16:before {
-  content: "\f17b";
+    content: "\f17b";
 }
 .nonicon-list-ordered-16:before {
-  content: "\f17c";
+    content: "\f17c";
 }
 .nonicon-list-unordered-16:before {
-  content: "\f17d";
+    content: "\f17d";
 }
 .nonicon-location-16:before {
-  content: "\f17e";
+    content: "\f17e";
 }
 .nonicon-lock-16:before {
-  content: "\f17f";
+    content: "\f17f";
 }
 .nonicon-logo-gist-16:before {
-  content: "\f180";
+    content: "\f180";
 }
 .nonicon-logo-github-16:before {
-  content: "\f181";
+    content: "\f181";
 }
 .nonicon-lua-16:before {
-  content: "\f182";
+    content: "\f182";
 }
 .nonicon-mail-16:before {
-  content: "\f183";
+    content: "\f183";
 }
 .nonicon-mark-github-16:before {
-  content: "\f184";
+    content: "\f184";
 }
 .nonicon-markdown-16:before {
-  content: "\f185";
+    content: "\f185";
 }
 .nonicon-megaphone-16:before {
-  content: "\f186";
+    content: "\f186";
 }
 .nonicon-mention-16:before {
-  content: "\f187";
+    content: "\f187";
 }
 .nonicon-meter-16:before {
-  content: "\f188";
+    content: "\f188";
 }
 .nonicon-milestone-16:before {
-  content: "\f189";
+    content: "\f189";
 }
 .nonicon-mirror-16:before {
-  content: "\f18a";
+    content: "\f18a";
 }
 .nonicon-moon-16:before {
-  content: "\f18b";
+    content: "\f18b";
 }
 .nonicon-mortar-board-16:before {
-  content: "\f18c";
+    content: "\f18c";
 }
 .nonicon-mute-16:before {
-  content: "\f18d";
+    content: "\f18d";
 }
 .nonicon-nginx-16:before {
-  content: "\f18e";
+    content: "\f18e";
 }
 .nonicon-no-entry-16:before {
-  content: "\f18f";
+    content: "\f18f";
 }
 .nonicon-node-16:before {
-  content: "\f190";
+    content: "\f190";
 }
 .nonicon-north-star-16:before {
-  content: "\f191";
+    content: "\f191";
 }
 .nonicon-note-16:before {
-  content: "\f192";
+    content: "\f192";
 }
 .nonicon-npm-16:before {
-  content: "\f193";
+    content: "\f193";
 }
 .nonicon-octoface-16:before {
-  content: "\f194";
+    content: "\f194";
 }
 .nonicon-organization-16:before {
-  content: "\f195";
+    content: "\f195";
 }
 .nonicon-package-16:before {
-  content: "\f196";
+    content: "\f196";
 }
 .nonicon-package-dependencies-16:before {
-  content: "\f197";
+    content: "\f197";
 }
 .nonicon-package-dependents-16:before {
-  content: "\f198";
+    content: "\f198";
 }
 .nonicon-paintbrush-16:before {
-  content: "\f199";
+    content: "\f199";
 }
 .nonicon-paper-airplane-16:before {
-  content: "\f19a";
+    content: "\f19a";
 }
 .nonicon-pencil-16:before {
-  content: "\f19b";
+    content: "\f19b";
 }
 .nonicon-people-16:before {
-  content: "\f19c";
+    content: "\f19c";
 }
 .nonicon-perl-16:before {
-  content: "\f19d";
+    content: "\f19d";
 }
 .nonicon-person-16:before {
-  content: "\f19e";
+    content: "\f19e";
 }
 .nonicon-php-16:before {
-  content: "\f19f";
+    content: "\f19f";
 }
 .nonicon-pin-16:before {
-  content: "\f1a0";
+    content: "\f1a0";
 }
 .nonicon-play-16:before {
-  content: "\f1a1";
+    content: "\f1a1";
 }
 .nonicon-plug-16:before {
-  content: "\f1a2";
+    content: "\f1a2";
 }
 .nonicon-plus-16:before {
-  content: "\f1a3";
+    content: "\f1a3";
 }
 .nonicon-plus-circle-16:before {
-  content: "\f1a4";
+    content: "\f1a4";
 }
 .nonicon-project-16:before {
-  content: "\f1a5";
+    content: "\f1a5";
 }
 .nonicon-pulse-16:before {
-  content: "\f1a6";
+    content: "\f1a6";
 }
 .nonicon-python-16:before {
-  content: "\f1a7";
+    content: "\f1a7";
 }
 .nonicon-question-16:before {
-  content: "\f1a8";
+    content: "\f1a8";
 }
 .nonicon-quote-16:before {
-  content: "\f1a9";
+    content: "\f1a9";
 }
 .nonicon-r-16:before {
-  content: "\f1aa";
+    content: "\f1aa";
 }
 .nonicon-react-16:before {
-  content: "\f1ab";
+    content: "\f1ab";
 }
 .nonicon-rectangle-16:before {
-  content: "\f1ac";
+    content: "\f1ac";
 }
 .nonicon-reply-16:before {
-  content: "\f1ad";
+    content: "\f1ad";
 }
 .nonicon-repo-16:before {
-  content: "\f1ae";
+    content: "\f1ae";
 }
 .nonicon-repo-clone-16:before {
-  content: "\f1af";
+    content: "\f1af";
 }
 .nonicon-repo-forked-16:before {
-  content: "\f1b0";
+    content: "\f1b0";
 }
 .nonicon-repo-pull-16:before {
-  content: "\f1b1";
+    content: "\f1b1";
 }
 .nonicon-repo-push-16:before {
-  content: "\f1b2";
+    content: "\f1b2";
 }
 .nonicon-repo-template-16:before {
-  content: "\f1b3";
+    content: "\f1b3";
 }
 .nonicon-report-16:before {
-  content: "\f1b4";
+    content: "\f1b4";
 }
 .nonicon-require-16:before {
-  content: "\f1b5";
+    content: "\f1b5";
 }
 .nonicon-rocket-16:before {
-  content: "\f1b6";
+    content: "\f1b6";
 }
 .nonicon-rss-16:before {
-  content: "\f1b7";
+    content: "\f1b7";
 }
 .nonicon-ruby-16:before {
-  content: "\f1b8";
+    content: "\f1b8";
 }
 .nonicon-rust-16:before {
-  content: "\f1b9";
+    content: "\f1b9";
 }
 .nonicon-scala-16:before {
-  content: "\f1ba";
+    content: "\f1ba";
 }
 .nonicon-screen-full-16:before {
-  content: "\f1bb";
+    content: "\f1bb";
 }
 .nonicon-screen-normal-16:before {
-  content: "\f1bc";
+    content: "\f1bc";
 }
 .nonicon-search-16:before {
-  content: "\f1bd";
+    content: "\f1bd";
 }
 .nonicon-server-16:before {
-  content: "\f1be";
+    content: "\f1be";
 }
 .nonicon-share-16:before {
-  content: "\f1bf";
+    content: "\f1bf";
 }
 .nonicon-share-android-16:before {
-  content: "\f1c0";
+    content: "\f1c0";
 }
 .nonicon-shield-16:before {
-  content: "\f1c1";
+    content: "\f1c1";
 }
 .nonicon-shield-check-16:before {
-  content: "\f1c2";
+    content: "\f1c2";
 }
 .nonicon-shield-lock-16:before {
-  content: "\f1c3";
+    content: "\f1c3";
 }
 .nonicon-shield-x-16:before {
-  content: "\f1c4";
+    content: "\f1c4";
 }
 .nonicon-sign-in-16:before {
-  content: "\f1c5";
+    content: "\f1c5";
 }
 .nonicon-sign-out-16:before {
-  content: "\f1c6";
+    content: "\f1c6";
 }
 .nonicon-skip-16:before {
-  content: "\f1c7";
+    content: "\f1c7";
 }
 .nonicon-smiley-16:before {
-  content: "\f1c8";
+    content: "\f1c8";
 }
 .nonicon-square-16:before {
-  content: "\f1c9";
+    content: "\f1c9";
 }
 .nonicon-square-fill-16:before {
-  content: "\f1ca";
+    content: "\f1ca";
 }
 .nonicon-squirrel-16:before {
-  content: "\f1cb";
+    content: "\f1cb";
 }
 .nonicon-star-16:before {
-  content: "\f1cc";
+    content: "\f1cc";
 }
 .nonicon-star-fill-16:before {
-  content: "\f1cd";
+    content: "\f1cd";
 }
 .nonicon-stop-16:before {
-  content: "\f1ce";
+    content: "\f1ce";
 }
 .nonicon-stopwatch-16:before {
-  content: "\f1cf";
+    content: "\f1cf";
 }
 .nonicon-strikethrough-16:before {
-  content: "\f1d0";
+    content: "\f1d0";
 }
 .nonicon-sun-16:before {
-  content: "\f1d1";
+    content: "\f1d1";
 }
 .nonicon-swift-16:before {
-  content: "\f1d2";
+    content: "\f1d2";
 }
 .nonicon-sync-16:before {
-  content: "\f1d3";
+    content: "\f1d3";
 }
 .nonicon-tag-16:before {
-  content: "\f1d4";
+    content: "\f1d4";
 }
 .nonicon-tasklist-16:before {
-  content: "\f1d5";
+    content: "\f1d5";
 }
 .nonicon-telescope-16:before {
-  content: "\f1d6";
+    content: "\f1d6";
 }
 .nonicon-terminal-16:before {
-  content: "\f1d7";
+    content: "\f1d7";
 }
 .nonicon-three-bars-16:before {
-  content: "\f1d8";
+    content: "\f1d8";
 }
 .nonicon-thumbsdown-16:before {
-  content: "\f1d9";
+    content: "\f1d9";
 }
 .nonicon-thumbsup-16:before {
-  content: "\f1da";
+    content: "\f1da";
 }
 .nonicon-tmux-16:before {
-  content: "\f1db";
+    content: "\f1db";
 }
 .nonicon-toml-16:before {
-  content: "\f1dc";
+    content: "\f1dc";
 }
 .nonicon-tools-16:before {
-  content: "\f1dd";
+    content: "\f1dd";
 }
 .nonicon-trashcan-16:before {
-  content: "\f1de";
+    content: "\f1de";
 }
 .nonicon-triangle-down-16:before {
-  content: "\f1df";
+    content: "\f1df";
 }
 .nonicon-triangle-left-16:before {
-  content: "\f1e0";
+    content: "\f1e0";
 }
 .nonicon-triangle-right-16:before {
-  content: "\f1e1";
+    content: "\f1e1";
 }
 .nonicon-triangle-up-16:before {
-  content: "\f1e2";
+    content: "\f1e2";
 }
 .nonicon-typescript-16:before {
-  content: "\f1e3";
+    content: "\f1e3";
 }
 .nonicon-typography-16:before {
-  content: "\f1e4";
+    content: "\f1e4";
 }
 .nonicon-unfold-16:before {
-  content: "\f1e5";
+    content: "\f1e5";
 }
 .nonicon-unlock-16:before {
-  content: "\f1e6";
+    content: "\f1e6";
 }
 .nonicon-unmute-16:before {
-  content: "\f1e7";
+    content: "\f1e7";
 }
 .nonicon-unverified-16:before {
-  content: "\f1e8";
+    content: "\f1e8";
 }
 .nonicon-upload-16:before {
-  content: "\f1e9";
+    content: "\f1e9";
 }
 .nonicon-verified-16:before {
-  content: "\f1ea";
+    content: "\f1ea";
 }
 .nonicon-versions-16:before {
-  content: "\f1eb";
+    content: "\f1eb";
 }
 .nonicon-vim-16:before {
-  content: "\f1ec";
+    content: "\f1ec";
 }
 .nonicon-vim-command-mode-16:before {
-  content: "\f1ed";
+    content: "\f1ed";
 }
 .nonicon-vim-insert-mode-16:before {
-  content: "\f1ee";
+    content: "\f1ee";
 }
 .nonicon-vim-normal-mode-16:before {
-  content: "\f1ef";
+    content: "\f1ef";
 }
 .nonicon-vim-replace-mode-16:before {
-  content: "\f1f0";
+    content: "\f1f0";
 }
 .nonicon-vim-select-mode-16:before {
-  content: "\f1f1";
+    content: "\f1f1";
 }
 .nonicon-vim-terminal-mode-16:before {
-  content: "\f1f2";
+    content: "\f1f2";
 }
 .nonicon-vim-visual-mode-16:before {
-  content: "\f1f3";
+    content: "\f1f3";
 }
 .nonicon-vue-16:before {
-  content: "\f1f4";
+    content: "\f1f4";
 }
 .nonicon-workflow-16:before {
-  content: "\f1f5";
+    content: "\f1f5";
 }
 .nonicon-x-16:before {
-  content: "\f1f6";
+    content: "\f1f6";
 }
 .nonicon-x-circle-16:before {
-  content: "\f1f7";
+    content: "\f1f7";
 }
 .nonicon-x-circle-fill-16:before {
-  content: "\f1f8";
+    content: "\f1f8";
 }
 .nonicon-yaml-16:before {
-  content: "\f1f9";
+    content: "\f1f9";
 }
 .nonicon-yarn-16:before {
-  content: "\f1fa";
+    content: "\f1fa";
 }
 .nonicon-zap-16:before {
-  content: "\f1fb";
+    content: "\f1fb";
 }
 .nonicon-multi-select-16:before {
-  content: "\f1fc";
+    content: "\f1fc";
 }
 .nonicon-number-16:before {
-  content: "\f1fd";
+    content: "\f1fd";
 }
 .nonicon-trash-16:before {
-  content: "\f1fe";
+    content: "\f1fe";
 }
 .nonicon-video-16:before {
-  content: "\f1ff";
+    content: "\f1ff";
+}
+.nonicon-blocked-16:before {
+    content: "\f200";
 }
 .nonicon-class-16:before {
-  content: "\f200";
+    content: "\f201";
+}
+.nonicon-codescan-16:before {
+    content: "\f202";
+}
+.nonicon-codescan-checkmark-16:before {
+    content: "\f203";
+}
+.nonicon-codespaces-16:before {
+    content: "\f204";
 }
 .nonicon-constant-16:before {
-  content: "\f201";
+    content: "\f205";
+}
+.nonicon-dependabot-16:before {
+    content: "\f206";
+}
+.nonicon-duplicate-16:before {
+    content: "\f207";
 }
 .nonicon-field-16:before {
-  content: "\f202";
+    content: "\f208";
 }
 .nonicon-interface-16:before {
-  content: "\f203";
+    content: "\f209";
 }
 .nonicon-keyword-16:before {
-  content: "\f204";
+    content: "\f20a";
+}
+.nonicon-person-add-16:before {
+    content: "\f20b";
+}
+.nonicon-sidebar-collapse-16:before {
+    content: "\f20c";
+}
+.nonicon-sidebar-expand-16:before {
+    content: "\f20d";
 }
 .nonicon-snippet-16:before {
-  content: "\f205";
+    content: "\f20e";
 }
 .nonicon-struct-16:before {
-  content: "\f206";
+    content: "\f20f";
+}
+.nonicon-table-16:before {
+    content: "\f210";
 }
 .nonicon-type-16:before {
-  content: "\f207";
+    content: "\f211";
 }
 .nonicon-variable-16:before {
-  content: "\f208";
+    content: "\f212";
 }
