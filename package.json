@@ -1,6 +1,6 @@
 {
   "name": "nonicons",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A set of icons representing programming languages, designing & development tools.",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/yamatsum/nonicons#readme",
   "dependencies": {
-    "fantasticon": "^1.1.1"
+    "fantasticon": "^1.1.3"
   }
 }
