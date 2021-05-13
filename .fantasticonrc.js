@@ -1,7 +1,7 @@
 module.exports = {
   inputDir: "./dist/icons",
   outputDir: "./dist",
-  fontTypes: ["ttf"],
+  fontTypes: ["ttf", "woff"],
   pathOptions: {
     json: "./src/template/nonicon.json",
   },
