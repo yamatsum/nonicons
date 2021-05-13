@@ -514,7 +514,7 @@ export type NoniconKey =
   | "Vim_16"
   | "VimCommandMode_16"
   | "VimInsertMode_16"
-  | "VimNomalMode_16"
+  | "VimNormalMode_16"
   | "VimReplaceMode_16"
   | "VimSelectMode_16"
   | "VimTerminalMode_16"
@@ -779,7 +779,7 @@ export enum Nonicon {
   Vim_16 = "vim-16",
   VimCommandMode_16 = "vim-command-mode-16",
   VimInsertMode_16 = "vim-insert-mode-16",
-  VimNomalMode_16 = "vim-normal-mode-16",
+  VimNormalMode_16 = "vim-normal-mode-16",
   VimReplaceMode_16 = "vim-replace-mode-16",
   VimSelectMode_16 = "vim-select-mode-16",
   VimTerminalMode_16 = "vim-terminal-mode-16",
@@ -1045,7 +1045,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.Vim_16]: "61932",
   [Nonicon.VimCommandMode_16]: "61933",
   [Nonicon.VimInsertMode_16]: "61934",
-  [Nonicon.VimNomalMode_16]: "61935",
+  [Nonicon.VimNormalMode_16]: "61935",
   [Nonicon.VimReplaceMode_16]: "61936",
   [Nonicon.VimSelectMode_16]: "61937",
   [Nonicon.VimTerminalMode_16]: "61938",
