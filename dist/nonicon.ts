@@ -72,6 +72,7 @@ export type NoniconId =
   | "dot-fill-16"
   | "download-16"
   | "duplicate-16"
+  | "elixir-16"
   | "ellipsis-16"
   | "elm-16"
   | "eye-16"
@@ -233,6 +234,7 @@ export type NoniconId =
   | "tasklist-16"
   | "telescope-16"
   | "terminal-16"
+  | "terraform-16"
   | "three-bars-16"
   | "thumbsdown-16"
   | "thumbsup-16"
@@ -347,6 +349,7 @@ export type NoniconKey =
   | "DotFill_16"
   | "Download_16"
   | "Duplicate_16"
+  | "Elixir_16"
   | "Ellipsis_16"
   | "Elm_16"
   | "Eye_16"
@@ -508,6 +511,7 @@ export type NoniconKey =
   | "Tasklist_16"
   | "Telescope_16"
   | "Terminal_16"
+  | "Terraform_16"
   | "ThreeBars_16"
   | "Thumbsdown_16"
   | "Thumbsup_16"
@@ -622,6 +626,7 @@ export enum Nonicon {
   DotFill_16 = "dot-fill-16",
   Download_16 = "download-16",
   Duplicate_16 = "duplicate-16",
+  Elixir_16 = "elixir-16",
   Ellipsis_16 = "ellipsis-16",
   Elm_16 = "elm-16",
   Eye_16 = "eye-16",
@@ -783,6 +788,7 @@ export enum Nonicon {
   Tasklist_16 = "tasklist-16",
   Telescope_16 = "telescope-16",
   Terminal_16 = "terminal-16",
+  Terraform_16 = "terraform-16",
   ThreeBars_16 = "three-bars-16",
   Thumbsdown_16 = "thumbsdown-16",
   Thumbsup_16 = "thumbsup-16",
@@ -898,6 +904,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.DotFill_16]: "61760",
   [Nonicon.Download_16]: "61761",
   [Nonicon.Duplicate_16]: "61966",
+  [Nonicon.Elixir_16]: "61971",
   [Nonicon.Ellipsis_16]: "61762",
   [Nonicon.Elm_16]: "61763",
   [Nonicon.Eye_16]: "61764",
@@ -1059,6 +1066,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.Tasklist_16]: "61909",
   [Nonicon.Telescope_16]: "61910",
   [Nonicon.Terminal_16]: "61911",
+  [Nonicon.Terraform_16]: "61972",
   [Nonicon.ThreeBars_16]: "61912",
   [Nonicon.Thumbsdown_16]: "61913",
   [Nonicon.Thumbsup_16]: "61914",

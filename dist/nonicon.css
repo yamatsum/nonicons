@@ -1,6 +1,6 @@
 @font-face {
     font-family: "nonicon";
-    src: url("./nonicon.ttf?a7b585289a358037d40defe0bd892e47") format("truetype");
+    src: url("./nonicon.ttf?70238d355fc62b850934de681f24c82f") format("truetype");
 }
 
 i[class^="nonicon-"]:before, i[class*=" nonicon-"]:before {
@@ -835,4 +835,10 @@ i[class^="nonicon-"]:before, i[class*=" nonicon-"]:before {
 }
 .nonicon-table-16:before {
     content: "\f212";
+}
+.nonicon-elixir-16:before {
+    content: "\f213";
+}
+.nonicon-terraform-16:before {
+    content: "\f214";
 }

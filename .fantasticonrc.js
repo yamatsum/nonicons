@@ -280,5 +280,7 @@ module.exports = {
     "sidebar-collapse-16": 61968,
     "sidebar-expand-16": 61969,
     "table-16": 61970,
+    "elixir-16": 61971,
+    "terraform-16": 61972,
   },
 };
