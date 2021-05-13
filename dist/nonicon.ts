@@ -12,6 +12,7 @@ export type NoniconId =
   | "beaker-16"
   | "bell-16"
   | "bell-slash-16"
+  | "blocked-16"
   | "bold-16"
   | "book-16"
   | "bookmark-16"
@@ -40,6 +41,9 @@ export type NoniconId =
   | "code-16"
   | "code-review-16"
   | "code-square-16"
+  | "codescan-16"
+  | "codescan-checkmark-16"
+  | "codespaces-16"
   | "comment-16"
   | "comment-discussion-16"
   | "constant-16"
@@ -51,6 +55,7 @@ export type NoniconId =
   | "dart-16"
   | "dash-16"
   | "database-16"
+  | "dependabot-16"
   | "desktop-download-16"
   | "device-camera-16"
   | "device-camera-video-16"
@@ -66,6 +71,7 @@ export type NoniconId =
   | "dot-16"
   | "dot-fill-16"
   | "download-16"
+  | "duplicate-16"
   | "ellipsis-16"
   | "elm-16"
   | "eye-16"
@@ -164,6 +170,7 @@ export type NoniconId =
   | "people-16"
   | "perl-16"
   | "person-16"
+  | "person-add-16"
   | "php-16"
   | "pin-16"
   | "play-16"
@@ -202,6 +209,8 @@ export type NoniconId =
   | "shield-check-16"
   | "shield-lock-16"
   | "shield-x-16"
+  | "sidebar-collapse-16"
+  | "sidebar-expand-16"
   | "sign-in-16"
   | "sign-out-16"
   | "skip-16"
@@ -219,6 +228,7 @@ export type NoniconId =
   | "sun-16"
   | "swift-16"
   | "sync-16"
+  | "table-16"
   | "tag-16"
   | "tasklist-16"
   | "telescope-16"
@@ -277,6 +287,7 @@ export type NoniconKey =
   | "Beaker_16"
   | "Bell_16"
   | "BellSlash_16"
+  | "Blocked_16"
   | "Bold_16"
   | "Book_16"
   | "Bookmark_16"
@@ -305,6 +316,9 @@ export type NoniconKey =
   | "Code_16"
   | "CodeReview_16"
   | "CodeSquare_16"
+  | "Codescan_16"
+  | "CodescanCheckmark_16"
+  | "Codespaces_16"
   | "Comment_16"
   | "CommentDiscussion_16"
   | "Constant_16"
@@ -316,6 +330,7 @@ export type NoniconKey =
   | "Dart_16"
   | "Dash_16"
   | "Database_16"
+  | "Dependabot_16"
   | "DesktopDownload_16"
   | "DeviceCamera_16"
   | "DeviceCameraVideo_16"
@@ -331,6 +346,7 @@ export type NoniconKey =
   | "Dot_16"
   | "DotFill_16"
   | "Download_16"
+  | "Duplicate_16"
   | "Ellipsis_16"
   | "Elm_16"
   | "Eye_16"
@@ -429,6 +445,7 @@ export type NoniconKey =
   | "People_16"
   | "Perl_16"
   | "Person_16"
+  | "PersonAdd_16"
   | "Php_16"
   | "Pin_16"
   | "Play_16"
@@ -467,6 +484,8 @@ export type NoniconKey =
   | "ShieldCheck_16"
   | "ShieldLock_16"
   | "ShieldX_16"
+  | "SidebarCollapse_16"
+  | "SidebarExpand_16"
   | "SignIn_16"
   | "SignOut_16"
   | "Skip_16"
@@ -484,6 +503,7 @@ export type NoniconKey =
   | "Sun_16"
   | "Swift_16"
   | "Sync_16"
+  | "Table_16"
   | "Tag_16"
   | "Tasklist_16"
   | "Telescope_16"
@@ -542,6 +562,7 @@ export enum Nonicon {
   Beaker_16 = "beaker-16",
   Bell_16 = "bell-16",
   BellSlash_16 = "bell-slash-16",
+  Blocked_16 = "blocked-16",
   Bold_16 = "bold-16",
   Book_16 = "book-16",
   Bookmark_16 = "bookmark-16",
@@ -570,6 +591,9 @@ export enum Nonicon {
   Code_16 = "code-16",
   CodeReview_16 = "code-review-16",
   CodeSquare_16 = "code-square-16",
+  Codescan_16 = "codescan-16",
+  CodescanCheckmark_16 = "codescan-checkmark-16",
+  Codespaces_16 = "codespaces-16",
   Comment_16 = "comment-16",
   CommentDiscussion_16 = "comment-discussion-16",
   Constant_16 = "constant-16",
@@ -581,6 +605,7 @@ export enum Nonicon {
   Dart_16 = "dart-16",
   Dash_16 = "dash-16",
   Database_16 = "database-16",
+  Dependabot_16 = "dependabot-16",
   DesktopDownload_16 = "desktop-download-16",
   DeviceCamera_16 = "device-camera-16",
   DeviceCameraVideo_16 = "device-camera-video-16",
@@ -596,6 +621,7 @@ export enum Nonicon {
   Dot_16 = "dot-16",
   DotFill_16 = "dot-fill-16",
   Download_16 = "download-16",
+  Duplicate_16 = "duplicate-16",
   Ellipsis_16 = "ellipsis-16",
   Elm_16 = "elm-16",
   Eye_16 = "eye-16",
@@ -694,6 +720,7 @@ export enum Nonicon {
   People_16 = "people-16",
   Perl_16 = "perl-16",
   Person_16 = "person-16",
+  PersonAdd_16 = "person-add-16",
   Php_16 = "php-16",
   Pin_16 = "pin-16",
   Play_16 = "play-16",
@@ -732,6 +759,8 @@ export enum Nonicon {
   ShieldCheck_16 = "shield-check-16",
   ShieldLock_16 = "shield-lock-16",
   ShieldX_16 = "shield-x-16",
+  SidebarCollapse_16 = "sidebar-collapse-16",
+  SidebarExpand_16 = "sidebar-expand-16",
   SignIn_16 = "sign-in-16",
   SignOut_16 = "sign-out-16",
   Skip_16 = "skip-16",
@@ -749,6 +778,7 @@ export enum Nonicon {
   Sun_16 = "sun-16",
   Swift_16 = "swift-16",
   Sync_16 = "sync-16",
+  Table_16 = "table-16",
   Tag_16 = "tag-16",
   Tasklist_16 = "tasklist-16",
   Telescope_16 = "telescope-16",
@@ -808,6 +838,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.Beaker_16]: "61707",
   [Nonicon.Bell_16]: "61708",
   [Nonicon.BellSlash_16]: "61709",
+  [Nonicon.Blocked_16]: "61961",
   [Nonicon.Bold_16]: "61710",
   [Nonicon.Book_16]: "61711",
   [Nonicon.Bookmark_16]: "61712",
@@ -836,6 +867,9 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.Code_16]: "61734",
   [Nonicon.CodeReview_16]: "61735",
   [Nonicon.CodeSquare_16]: "61736",
+  [Nonicon.Codescan_16]: "61962",
+  [Nonicon.CodescanCheckmark_16]: "61963",
+  [Nonicon.Codespaces_16]: "61964",
   [Nonicon.Comment_16]: "61737",
   [Nonicon.CommentDiscussion_16]: "61738",
   [Nonicon.Constant_16]: "61953",
@@ -847,6 +881,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.Dart_16]: "61744",
   [Nonicon.Dash_16]: "61745",
   [Nonicon.Database_16]: "61746",
+  [Nonicon.Dependabot_16]: "61965",
   [Nonicon.DesktopDownload_16]: "61747",
   [Nonicon.DeviceCamera_16]: "61748",
   [Nonicon.DeviceCameraVideo_16]: "61749",
@@ -862,6 +897,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.Dot_16]: "61759",
   [Nonicon.DotFill_16]: "61760",
   [Nonicon.Download_16]: "61761",
+  [Nonicon.Duplicate_16]: "61966",
   [Nonicon.Ellipsis_16]: "61762",
   [Nonicon.Elm_16]: "61763",
   [Nonicon.Eye_16]: "61764",
@@ -960,6 +996,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.People_16]: "61852",
   [Nonicon.Perl_16]: "61853",
   [Nonicon.Person_16]: "61854",
+  [Nonicon.PersonAdd_16]: "61967",
   [Nonicon.Php_16]: "61855",
   [Nonicon.Pin_16]: "61856",
   [Nonicon.Play_16]: "61857",
@@ -998,6 +1035,8 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.ShieldCheck_16]: "61890",
   [Nonicon.ShieldLock_16]: "61891",
   [Nonicon.ShieldX_16]: "61892",
+  [Nonicon.SidebarCollapse_16]: "61968",
+  [Nonicon.SidebarExpand_16]: "61969",
   [Nonicon.SignIn_16]: "61893",
   [Nonicon.SignOut_16]: "61894",
   [Nonicon.Skip_16]: "61895",
@@ -1015,6 +1054,7 @@ export const NONICON_CODEPOINTS: { [key in Nonicon]: string } = {
   [Nonicon.Sun_16]: "61905",
   [Nonicon.Swift_16]: "61906",
   [Nonicon.Sync_16]: "61907",
+  [Nonicon.Table_16]: "61970",
   [Nonicon.Tag_16]: "61908",
   [Nonicon.Tasklist_16]: "61909",
   [Nonicon.Telescope_16]: "61910",

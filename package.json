@@ -1,11 +1,11 @@
 {
   "name": "nonicons",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A set of icons representing programming languages, designing & development tools.",
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf dist && mkdir -p dist/icons",
-    "move8": "cp src/icons/octicons/*-16.svg dist/icons/",
+    "move8": "cp node_modules/octicons/icons/*-16.svg src/icons/octicons/ & oslllo-svg-fixer -s src/icons/octicons/ -d dist/icons/",
     "move9": "cp src/icons/nonicons/*-16.svg dist/icons/",
     "generate": "fantasticon -n nonicon -p nonicon",
     "update": "yarn clean && yarn move8 && yarn move9 && yarn generate"
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/yamatsum/nonicons#readme",
   "dependencies": {
-    "fantasticon": "^1.1.3"
+    "fantasticon": "^1.1.3",
+    "octicons": "git://github.com/primer/octicons#v13.0.0",
+    "oslllo-svg-fixer": "^1.2.1"
   }
 }

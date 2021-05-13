@@ -12,7 +12,9 @@ Nonicons are inspired by [Octicons](https://github.com/primer/octicons).
 
 ## Other
 
-Use [Fill Rule Editor](https://www.figma.com/community/plugin/771155994770327940/Fill-Rule-Editor)
+~~Use [Fill Rule Editor](https://www.figma.com/community/plugin/771155994770327940/Fill-Rule-Editor)~~
+
+Use [svg-fixer](https://github.com/oslllo/svg-fixer)
 
 ## TODO
 
