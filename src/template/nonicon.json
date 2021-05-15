@@ -274,5 +274,13 @@
     "sidebar-expand-16": 61969,
     "table-16": 61970,
     "elixir-16": 61971,
-    "terraform-16": 61972
+    "terraform-16": 61972,
+    "columns-16": 61973,
+    "diamond-16": 61974,
+    "git-pull-request-closed-16": 61975,
+    "git-pull-request-draft-16": 61976,
+    "hash-16": 61977,
+    "issue-draft-16": 61978,
+    "rows-16": 61979,
+    "select-single-16": 61980
 }

@@ -44,6 +44,7 @@ export type NoniconsId =
   | "codescan-16"
   | "codescan-checkmark-16"
   | "codespaces-16"
+  | "columns-16"
   | "comment-16"
   | "comment-discussion-16"
   | "constant-16"
@@ -61,6 +62,7 @@ export type NoniconsId =
   | "device-camera-video-16"
   | "device-desktop-16"
   | "device-mobile-16"
+  | "diamond-16"
   | "diff-16"
   | "diff-added-16"
   | "diff-ignored-16"
@@ -100,10 +102,13 @@ export type NoniconsId =
   | "git-compare-16"
   | "git-merge-16"
   | "git-pull-request-16"
+  | "git-pull-request-closed-16"
+  | "git-pull-request-draft-16"
   | "globe-16"
   | "go-16"
   | "grabber-16"
   | "graph-16"
+  | "hash-16"
   | "heading-16"
   | "heart-16"
   | "heart-fill-16"
@@ -119,6 +124,7 @@ export type NoniconsId =
   | "info-16"
   | "interface-16"
   | "issue-closed-16"
+  | "issue-draft-16"
   | "issue-opened-16"
   | "issue-reopened-16"
   | "italic-16"
@@ -160,7 +166,6 @@ export type NoniconsId =
   | "note-16"
   | "npm-16"
   | "number-16"
-  | "octoface-16"
   | "organization-16"
   | "package-16"
   | "package-dependencies-16"
@@ -196,6 +201,7 @@ export type NoniconsId =
   | "report-16"
   | "require-16"
   | "rocket-16"
+  | "rows-16"
   | "rss-16"
   | "ruby-16"
   | "rust-16"
@@ -203,6 +209,7 @@ export type NoniconsId =
   | "screen-full-16"
   | "screen-normal-16"
   | "search-16"
+  | "select-single-16"
   | "server-16"
   | "share-16"
   | "share-android-16"
@@ -321,6 +328,7 @@ export type NoniconsKey =
   | "Codescan_16"
   | "CodescanCheckmark_16"
   | "Codespaces_16"
+  | "Columns_16"
   | "Comment_16"
   | "CommentDiscussion_16"
   | "Constant_16"
@@ -338,6 +346,7 @@ export type NoniconsKey =
   | "DeviceCameraVideo_16"
   | "DeviceDesktop_16"
   | "DeviceMobile_16"
+  | "Diamond_16"
   | "Diff_16"
   | "DiffAdded_16"
   | "DiffIgnored_16"
@@ -377,10 +386,13 @@ export type NoniconsKey =
   | "GitCompare_16"
   | "GitMerge_16"
   | "GitPullRequest_16"
+  | "GitPullRequestClosed_16"
+  | "GitPullRequestDraft_16"
   | "Globe_16"
   | "Go_16"
   | "Grabber_16"
   | "Graph_16"
+  | "Hash_16"
   | "Heading_16"
   | "Heart_16"
   | "HeartFill_16"
@@ -396,6 +408,7 @@ export type NoniconsKey =
   | "Info_16"
   | "Interface_16"
   | "IssueClosed_16"
+  | "IssueDraft_16"
   | "IssueOpened_16"
   | "IssueReopened_16"
   | "Italic_16"
@@ -437,7 +450,6 @@ export type NoniconsKey =
   | "Note_16"
   | "Npm_16"
   | "Number_16"
-  | "Octoface_16"
   | "Organization_16"
   | "Package_16"
   | "PackageDependencies_16"
@@ -473,6 +485,7 @@ export type NoniconsKey =
   | "Report_16"
   | "Require_16"
   | "Rocket_16"
+  | "Rows_16"
   | "Rss_16"
   | "Ruby_16"
   | "Rust_16"
@@ -480,6 +493,7 @@ export type NoniconsKey =
   | "ScreenFull_16"
   | "ScreenNormal_16"
   | "Search_16"
+  | "SelectSingle_16"
   | "Server_16"
   | "Share_16"
   | "ShareAndroid_16"
@@ -598,6 +612,7 @@ export enum Nonicons {
   Codescan_16 = "codescan-16",
   CodescanCheckmark_16 = "codescan-checkmark-16",
   Codespaces_16 = "codespaces-16",
+  Columns_16 = "columns-16",
   Comment_16 = "comment-16",
   CommentDiscussion_16 = "comment-discussion-16",
   Constant_16 = "constant-16",
@@ -615,6 +630,7 @@ export enum Nonicons {
   DeviceCameraVideo_16 = "device-camera-video-16",
   DeviceDesktop_16 = "device-desktop-16",
   DeviceMobile_16 = "device-mobile-16",
+  Diamond_16 = "diamond-16",
   Diff_16 = "diff-16",
   DiffAdded_16 = "diff-added-16",
   DiffIgnored_16 = "diff-ignored-16",
@@ -654,10 +670,13 @@ export enum Nonicons {
   GitCompare_16 = "git-compare-16",
   GitMerge_16 = "git-merge-16",
   GitPullRequest_16 = "git-pull-request-16",
+  GitPullRequestClosed_16 = "git-pull-request-closed-16",
+  GitPullRequestDraft_16 = "git-pull-request-draft-16",
   Globe_16 = "globe-16",
   Go_16 = "go-16",
   Grabber_16 = "grabber-16",
   Graph_16 = "graph-16",
+  Hash_16 = "hash-16",
   Heading_16 = "heading-16",
   Heart_16 = "heart-16",
   HeartFill_16 = "heart-fill-16",
@@ -673,6 +692,7 @@ export enum Nonicons {
   Info_16 = "info-16",
   Interface_16 = "interface-16",
   IssueClosed_16 = "issue-closed-16",
+  IssueDraft_16 = "issue-draft-16",
   IssueOpened_16 = "issue-opened-16",
   IssueReopened_16 = "issue-reopened-16",
   Italic_16 = "italic-16",
@@ -714,7 +734,6 @@ export enum Nonicons {
   Note_16 = "note-16",
   Npm_16 = "npm-16",
   Number_16 = "number-16",
-  Octoface_16 = "octoface-16",
   Organization_16 = "organization-16",
   Package_16 = "package-16",
   PackageDependencies_16 = "package-dependencies-16",
@@ -750,6 +769,7 @@ export enum Nonicons {
   Report_16 = "report-16",
   Require_16 = "require-16",
   Rocket_16 = "rocket-16",
+  Rows_16 = "rows-16",
   Rss_16 = "rss-16",
   Ruby_16 = "ruby-16",
   Rust_16 = "rust-16",
@@ -757,6 +777,7 @@ export enum Nonicons {
   ScreenFull_16 = "screen-full-16",
   ScreenNormal_16 = "screen-normal-16",
   Search_16 = "search-16",
+  SelectSingle_16 = "select-single-16",
   Server_16 = "server-16",
   Share_16 = "share-16",
   ShareAndroid_16 = "share-android-16",
@@ -876,6 +897,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Codescan_16]: "61962",
   [Nonicons.CodescanCheckmark_16]: "61963",
   [Nonicons.Codespaces_16]: "61964",
+  [Nonicons.Columns_16]: "61973",
   [Nonicons.Comment_16]: "61737",
   [Nonicons.CommentDiscussion_16]: "61738",
   [Nonicons.Constant_16]: "61953",
@@ -893,6 +915,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.DeviceCameraVideo_16]: "61749",
   [Nonicons.DeviceDesktop_16]: "61750",
   [Nonicons.DeviceMobile_16]: "61751",
+  [Nonicons.Diamond_16]: "61974",
   [Nonicons.Diff_16]: "61752",
   [Nonicons.DiffAdded_16]: "61753",
   [Nonicons.DiffIgnored_16]: "61754",
@@ -932,10 +955,13 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.GitCompare_16]: "61785",
   [Nonicons.GitMerge_16]: "61786",
   [Nonicons.GitPullRequest_16]: "61787",
+  [Nonicons.GitPullRequestClosed_16]: "61975",
+  [Nonicons.GitPullRequestDraft_16]: "61976",
   [Nonicons.Globe_16]: "61788",
   [Nonicons.Go_16]: "61789",
   [Nonicons.Grabber_16]: "61790",
   [Nonicons.Graph_16]: "61791",
+  [Nonicons.Hash_16]: "61977",
   [Nonicons.Heading_16]: "61792",
   [Nonicons.Heart_16]: "61793",
   [Nonicons.HeartFill_16]: "61794",
@@ -951,6 +977,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Info_16]: "61804",
   [Nonicons.Interface_16]: "61955",
   [Nonicons.IssueClosed_16]: "61805",
+  [Nonicons.IssueDraft_16]: "61978",
   [Nonicons.IssueOpened_16]: "61806",
   [Nonicons.IssueReopened_16]: "61807",
   [Nonicons.Italic_16]: "61808",
@@ -992,7 +1019,6 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Note_16]: "61842",
   [Nonicons.Npm_16]: "61843",
   [Nonicons.Number_16]: "61949",
-  [Nonicons.Octoface_16]: "61844",
   [Nonicons.Organization_16]: "61845",
   [Nonicons.Package_16]: "61846",
   [Nonicons.PackageDependencies_16]: "61847",
@@ -1028,6 +1054,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Report_16]: "61876",
   [Nonicons.Require_16]: "61877",
   [Nonicons.Rocket_16]: "61878",
+  [Nonicons.Rows_16]: "61979",
   [Nonicons.Rss_16]: "61879",
   [Nonicons.Ruby_16]: "61880",
   [Nonicons.Rust_16]: "61881",
@@ -1035,6 +1062,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.ScreenFull_16]: "61883",
   [Nonicons.ScreenNormal_16]: "61884",
   [Nonicons.Search_16]: "61885",
+  [Nonicons.SelectSingle_16]: "61980",
   [Nonicons.Server_16]: "61886",
   [Nonicons.Share_16]: "61887",
   [Nonicons.ShareAndroid_16]: "61888",

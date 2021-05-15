@@ -22,7 +22,7 @@
   "homepage": "https://github.com/yamatsum/nonicons#readme",
   "dependencies": {
     "fantasticon": "^1.1.3",
-    "octicons": "git://github.com/primer/octicons#v13.0.0",
+    "octicons": "git://github.com/primer/octicons#v14.1.0",
     "oslllo-svg-fixer": "^1.2.1"
   }
 }

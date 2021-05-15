@@ -1,7 +1,7 @@
 @font-face {
     font-family: "nonicons";
-    src: url("./nonicons.ttf?ac6d3104687ff3f888bc24ee87a54011") format("truetype"),
-url("./nonicons.woff?ac6d3104687ff3f888bc24ee87a54011") format("woff");
+    src: url("./nonicons.ttf?6fdf3b23f33e342f09dff6bec31cc450") format("truetype"),
+url("./nonicons.woff?6fdf3b23f33e342f09dff6bec31cc450") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -842,4 +842,28 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-terraform-16:before {
     content: "\f214";
+}
+.icon-columns-16:before {
+    content: "\f215";
+}
+.icon-diamond-16:before {
+    content: "\f216";
+}
+.icon-git-pull-request-closed-16:before {
+    content: "\f217";
+}
+.icon-git-pull-request-draft-16:before {
+    content: "\f218";
+}
+.icon-hash-16:before {
+    content: "\f219";
+}
+.icon-issue-draft-16:before {
+    content: "\f21a";
+}
+.icon-rows-16:before {
+    content: "\f21b";
+}
+.icon-select-single-16:before {
+    content: "\f21c";
 }
