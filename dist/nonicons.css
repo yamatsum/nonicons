@@ -1,7 +1,7 @@
 @font-face {
     font-family: "nonicons";
-    src: url("./nonicons.ttf?5102ff3aec767c831b81fb7e6883c91b") format("truetype"),
-url("./nonicons.woff?5102ff3aec767c831b81fb7e6883c91b") format("woff");
+    src: url("./nonicons.ttf?c2130f8a641d31be3e709634d9f6f34e") format("truetype"),
+url("./nonicons.woff?c2130f8a641d31be3e709634d9f6f34e") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -866,4 +866,13 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-select-single-16:before {
     content: "\f21c";
+}
+.icon-eslint-16:before {
+    content: "\f21d";
+}
+.icon-prettier-16:before {
+    content: "\f21e";
+}
+.icon-vscode-16:before {
+    content: "\f21f";
 }

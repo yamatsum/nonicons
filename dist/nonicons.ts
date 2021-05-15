@@ -77,6 +77,7 @@ export type NoniconsId =
   | "elixir-16"
   | "ellipsis-16"
   | "elm-16"
+  | "eslint-16"
   | "eye-16"
   | "eye-closed-16"
   | "field-16"
@@ -183,6 +184,7 @@ export type NoniconsId =
   | "plug-16"
   | "plus-16"
   | "plus-circle-16"
+  | "prettier-16"
   | "project-16"
   | "pulse-16"
   | "python-16"
@@ -273,6 +275,7 @@ export type NoniconsId =
   | "vim-select-mode-16"
   | "vim-terminal-mode-16"
   | "vim-visual-mode-16"
+  | "vscode-16"
   | "vue-16"
   | "workflow-16"
   | "x-16"
@@ -361,6 +364,7 @@ export type NoniconsKey =
   | "Elixir_16"
   | "Ellipsis_16"
   | "Elm_16"
+  | "Eslint_16"
   | "Eye_16"
   | "EyeClosed_16"
   | "Field_16"
@@ -467,6 +471,7 @@ export type NoniconsKey =
   | "Plug_16"
   | "Plus_16"
   | "PlusCircle_16"
+  | "Prettier_16"
   | "Project_16"
   | "Pulse_16"
   | "Python_16"
@@ -557,6 +562,7 @@ export type NoniconsKey =
   | "VimSelectMode_16"
   | "VimTerminalMode_16"
   | "VimVisualMode_16"
+  | "Vscode_16"
   | "Vue_16"
   | "Workflow_16"
   | "X_16"
@@ -645,6 +651,7 @@ export enum Nonicons {
   Elixir_16 = "elixir-16",
   Ellipsis_16 = "ellipsis-16",
   Elm_16 = "elm-16",
+  Eslint_16 = "eslint-16",
   Eye_16 = "eye-16",
   EyeClosed_16 = "eye-closed-16",
   Field_16 = "field-16",
@@ -751,6 +758,7 @@ export enum Nonicons {
   Plug_16 = "plug-16",
   Plus_16 = "plus-16",
   PlusCircle_16 = "plus-circle-16",
+  Prettier_16 = "prettier-16",
   Project_16 = "project-16",
   Pulse_16 = "pulse-16",
   Python_16 = "python-16",
@@ -841,6 +849,7 @@ export enum Nonicons {
   VimSelectMode_16 = "vim-select-mode-16",
   VimTerminalMode_16 = "vim-terminal-mode-16",
   VimVisualMode_16 = "vim-visual-mode-16",
+  Vscode_16 = "vscode-16",
   Vue_16 = "vue-16",
   Workflow_16 = "workflow-16",
   X_16 = "x-16",
@@ -930,6 +939,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Elixir_16]: "61971",
   [Nonicons.Ellipsis_16]: "61762",
   [Nonicons.Elm_16]: "61763",
+  [Nonicons.Eslint_16]: "61981",
   [Nonicons.Eye_16]: "61764",
   [Nonicons.EyeClosed_16]: "61765",
   [Nonicons.Field_16]: "61954",
@@ -1036,6 +1046,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Plug_16]: "61858",
   [Nonicons.Plus_16]: "61859",
   [Nonicons.PlusCircle_16]: "61860",
+  [Nonicons.Prettier_16]: "61982",
   [Nonicons.Project_16]: "61861",
   [Nonicons.Pulse_16]: "61862",
   [Nonicons.Python_16]: "61863",
@@ -1126,6 +1137,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.VimSelectMode_16]: "61937",
   [Nonicons.VimTerminalMode_16]: "61938",
   [Nonicons.VimVisualMode_16]: "61939",
+  [Nonicons.Vscode_16]: "61983",
   [Nonicons.Vue_16]: "61940",
   [Nonicons.Workflow_16]: "61941",
   [Nonicons.X_16]: "61942",
