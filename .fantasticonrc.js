@@ -290,5 +290,8 @@ module.exports = {
     "issue-draft-16": 61978,
     "rows-16": 61979,
     "select-single-16": 61980,
+    "eslint-16": 61981,
+    "prettier-16": 61982,
+    "vscode-16": 61983,
   },
 };
