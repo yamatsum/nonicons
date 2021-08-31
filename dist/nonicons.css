@@ -1,7 +1,7 @@
 @font-face {
     font-family: "nonicons";
-    src: url("./nonicons.ttf?c2130f8a641d31be3e709634d9f6f34e") format("truetype"),
-url("./nonicons.woff?c2130f8a641d31be3e709634d9f6f34e") format("woff");
+    src: url("./nonicons.ttf?879ddcc2d24532e47a180e198f7db3ca") format("truetype"),
+url("./nonicons.woff?879ddcc2d24532e47a180e198f7db3ca") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -875,4 +875,19 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-vscode-16:before {
     content: "\f21f";
+}
+.icon-copy-16:before {
+    content: "\f220";
+}
+.icon-key-asterisk-16:before {
+    content: "\f221";
+}
+.icon-paste-16:before {
+    content: "\f222";
+}
+.icon-sort-asc-16:before {
+    content: "\f223";
+}
+.icon-sort-desc-16:before {
+    content: "\f224";
 }

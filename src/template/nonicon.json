@@ -285,5 +285,10 @@
     "select-single-16": 61980,
     "eslint-16": 61981,
     "prettier-16": 61982,
-    "vscode-16": 61983
+    "vscode-16": 61983,
+    "copy-16": 61984,
+    "key-asterisk-16": 61985,
+    "paste-16": 61986,
+    "sort-asc-16": 61987,
+    "sort-desc-16": 61988
 }

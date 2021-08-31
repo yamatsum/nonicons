@@ -49,6 +49,7 @@ export type NoniconsId =
   | "comment-discussion-16"
   | "constant-16"
   | "container-16"
+  | "copy-16"
   | "cpu-16"
   | "credit-card-16"
   | "cross-reference-16"
@@ -134,6 +135,7 @@ export type NoniconsId =
   | "json-16"
   | "kebab-horizontal-16"
   | "key-16"
+  | "key-asterisk-16"
   | "keyword-16"
   | "kotlin-16"
   | "kubernetes-16"
@@ -173,6 +175,7 @@ export type NoniconsId =
   | "package-dependents-16"
   | "paintbrush-16"
   | "paper-airplane-16"
+  | "paste-16"
   | "pencil-16"
   | "people-16"
   | "perl-16"
@@ -226,6 +229,8 @@ export type NoniconsId =
   | "skip-16"
   | "smiley-16"
   | "snippet-16"
+  | "sort-asc-16"
+  | "sort-desc-16"
   | "square-16"
   | "square-fill-16"
   | "squirrel-16"
@@ -336,6 +341,7 @@ export type NoniconsKey =
   | "CommentDiscussion_16"
   | "Constant_16"
   | "Container_16"
+  | "Copy_16"
   | "Cpu_16"
   | "CreditCard_16"
   | "CrossReference_16"
@@ -421,6 +427,7 @@ export type NoniconsKey =
   | "Json_16"
   | "KebabHorizontal_16"
   | "Key_16"
+  | "KeyAsterisk_16"
   | "Keyword_16"
   | "Kotlin_16"
   | "Kubernetes_16"
@@ -460,6 +467,7 @@ export type NoniconsKey =
   | "PackageDependents_16"
   | "Paintbrush_16"
   | "PaperAirplane_16"
+  | "Paste_16"
   | "Pencil_16"
   | "People_16"
   | "Perl_16"
@@ -513,6 +521,8 @@ export type NoniconsKey =
   | "Skip_16"
   | "Smiley_16"
   | "Snippet_16"
+  | "SortAsc_16"
+  | "SortDesc_16"
   | "Square_16"
   | "SquareFill_16"
   | "Squirrel_16"
@@ -623,6 +633,7 @@ export enum Nonicons {
   CommentDiscussion_16 = "comment-discussion-16",
   Constant_16 = "constant-16",
   Container_16 = "container-16",
+  Copy_16 = "copy-16",
   Cpu_16 = "cpu-16",
   CreditCard_16 = "credit-card-16",
   CrossReference_16 = "cross-reference-16",
@@ -708,6 +719,7 @@ export enum Nonicons {
   Json_16 = "json-16",
   KebabHorizontal_16 = "kebab-horizontal-16",
   Key_16 = "key-16",
+  KeyAsterisk_16 = "key-asterisk-16",
   Keyword_16 = "keyword-16",
   Kotlin_16 = "kotlin-16",
   Kubernetes_16 = "kubernetes-16",
@@ -747,6 +759,7 @@ export enum Nonicons {
   PackageDependents_16 = "package-dependents-16",
   Paintbrush_16 = "paintbrush-16",
   PaperAirplane_16 = "paper-airplane-16",
+  Paste_16 = "paste-16",
   Pencil_16 = "pencil-16",
   People_16 = "people-16",
   Perl_16 = "perl-16",
@@ -800,6 +813,8 @@ export enum Nonicons {
   Skip_16 = "skip-16",
   Smiley_16 = "smiley-16",
   Snippet_16 = "snippet-16",
+  SortAsc_16 = "sort-asc-16",
+  SortDesc_16 = "sort-desc-16",
   Square_16 = "square-16",
   SquareFill_16 = "square-fill-16",
   Squirrel_16 = "squirrel-16",
@@ -911,6 +926,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.CommentDiscussion_16]: "61738",
   [Nonicons.Constant_16]: "61953",
   [Nonicons.Container_16]: "61739",
+  [Nonicons.Copy_16]: "61984",
   [Nonicons.Cpu_16]: "61740",
   [Nonicons.CreditCard_16]: "61741",
   [Nonicons.CrossReference_16]: "61742",
@@ -996,6 +1012,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Json_16]: "61811",
   [Nonicons.KebabHorizontal_16]: "61812",
   [Nonicons.Key_16]: "61813",
+  [Nonicons.KeyAsterisk_16]: "61985",
   [Nonicons.Keyword_16]: "61956",
   [Nonicons.Kotlin_16]: "61814",
   [Nonicons.Kubernetes_16]: "61815",
@@ -1035,6 +1052,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.PackageDependents_16]: "61848",
   [Nonicons.Paintbrush_16]: "61849",
   [Nonicons.PaperAirplane_16]: "61850",
+  [Nonicons.Paste_16]: "61986",
   [Nonicons.Pencil_16]: "61851",
   [Nonicons.People_16]: "61852",
   [Nonicons.Perl_16]: "61853",
@@ -1088,6 +1106,8 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Skip_16]: "61895",
   [Nonicons.Smiley_16]: "61896",
   [Nonicons.Snippet_16]: "61957",
+  [Nonicons.SortAsc_16]: "61987",
+  [Nonicons.SortDesc_16]: "61988",
   [Nonicons.Square_16]: "61897",
   [Nonicons.SquareFill_16]: "61898",
   [Nonicons.Squirrel_16]: "61899",

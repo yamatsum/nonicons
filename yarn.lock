@@ -4688,9 +4688,9 @@ observable-to-promise@^1.0.0:
     is-observable "^2.0.0"
     symbol-observable "^1.0.4"
 
-"octicons@git://github.com/primer/octicons#v14.1.0":
-  version "14.1.0"
-  resolved "git://github.com/primer/octicons#841080502e6f86295a613ebff1d3c74cab81036e"
+"octicons@git://github.com/primer/octicons#v15.0.1":
+  version "15.0.1"
+  resolved "git://github.com/primer/octicons#0d37d905ae3346ab7af901d7ae4c9191cbf07bcf"
   dependencies:
     "@github/prettier-config" "0.0.4"
     ava "2.1.0"
