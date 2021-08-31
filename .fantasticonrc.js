@@ -297,6 +297,11 @@ module.exports = {
     "key-asterisk-16": 61985,
     "paste-16": 61986,
     "sort-asc-16": 61987,
-    "sort-desc-16": 61988
+    "sort-desc-16": 61988,
+    "babel-16": 61989,
+    "ionic-16": 61990,
+    "next-16": 61991,
+    "svelte-16": 61992,
+    "capacitor-16": 61993
   },
 };

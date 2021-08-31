@@ -8,6 +8,7 @@ export type NoniconsId =
   | "arrow-right-16"
   | "arrow-switch-16"
   | "arrow-up-16"
+  | "babel-16"
   | "backbone-16"
   | "beaker-16"
   | "bell-16"
@@ -25,6 +26,7 @@ export type NoniconsId =
   | "c-plusplus-16"
   | "c-sharp-16"
   | "calendar-16"
+  | "capacitor-16"
   | "check-16"
   | "check-circle-16"
   | "check-circle-fill-16"
@@ -125,6 +127,7 @@ export type NoniconsId =
   | "infinity-16"
   | "info-16"
   | "interface-16"
+  | "ionic-16"
   | "issue-closed-16"
   | "issue-draft-16"
   | "issue-opened-16"
@@ -162,6 +165,7 @@ export type NoniconsId =
   | "mortar-board-16"
   | "multi-select-16"
   | "mute-16"
+  | "next-16"
   | "nginx-16"
   | "no-entry-16"
   | "node-16"
@@ -241,6 +245,7 @@ export type NoniconsId =
   | "strikethrough-16"
   | "struct-16"
   | "sun-16"
+  | "svelte-16"
   | "swift-16"
   | "sync-16"
   | "table-16"
@@ -300,6 +305,7 @@ export type NoniconsKey =
   | "ArrowRight_16"
   | "ArrowSwitch_16"
   | "ArrowUp_16"
+  | "Babel_16"
   | "Backbone_16"
   | "Beaker_16"
   | "Bell_16"
@@ -317,6 +323,7 @@ export type NoniconsKey =
   | "CPlusplus_16"
   | "CSharp_16"
   | "Calendar_16"
+  | "Capacitor_16"
   | "Check_16"
   | "CheckCircle_16"
   | "CheckCircleFill_16"
@@ -417,6 +424,7 @@ export type NoniconsKey =
   | "Infinity_16"
   | "Info_16"
   | "Interface_16"
+  | "Ionic_16"
   | "IssueClosed_16"
   | "IssueDraft_16"
   | "IssueOpened_16"
@@ -454,6 +462,7 @@ export type NoniconsKey =
   | "MortarBoard_16"
   | "MultiSelect_16"
   | "Mute_16"
+  | "Next_16"
   | "Nginx_16"
   | "NoEntry_16"
   | "Node_16"
@@ -533,6 +542,7 @@ export type NoniconsKey =
   | "Strikethrough_16"
   | "Struct_16"
   | "Sun_16"
+  | "Svelte_16"
   | "Swift_16"
   | "Sync_16"
   | "Table_16"
@@ -592,6 +602,7 @@ export enum Nonicons {
   ArrowRight_16 = "arrow-right-16",
   ArrowSwitch_16 = "arrow-switch-16",
   ArrowUp_16 = "arrow-up-16",
+  Babel_16 = "babel-16",
   Backbone_16 = "backbone-16",
   Beaker_16 = "beaker-16",
   Bell_16 = "bell-16",
@@ -609,6 +620,7 @@ export enum Nonicons {
   CPlusplus_16 = "c-plusplus-16",
   CSharp_16 = "c-sharp-16",
   Calendar_16 = "calendar-16",
+  Capacitor_16 = "capacitor-16",
   Check_16 = "check-16",
   CheckCircle_16 = "check-circle-16",
   CheckCircleFill_16 = "check-circle-fill-16",
@@ -709,6 +721,7 @@ export enum Nonicons {
   Infinity_16 = "infinity-16",
   Info_16 = "info-16",
   Interface_16 = "interface-16",
+  Ionic_16 = "ionic-16",
   IssueClosed_16 = "issue-closed-16",
   IssueDraft_16 = "issue-draft-16",
   IssueOpened_16 = "issue-opened-16",
@@ -746,6 +759,7 @@ export enum Nonicons {
   MortarBoard_16 = "mortar-board-16",
   MultiSelect_16 = "multi-select-16",
   Mute_16 = "mute-16",
+  Next_16 = "next-16",
   Nginx_16 = "nginx-16",
   NoEntry_16 = "no-entry-16",
   Node_16 = "node-16",
@@ -825,6 +839,7 @@ export enum Nonicons {
   Strikethrough_16 = "strikethrough-16",
   Struct_16 = "struct-16",
   Sun_16 = "sun-16",
+  Svelte_16 = "svelte-16",
   Swift_16 = "swift-16",
   Sync_16 = "sync-16",
   Table_16 = "table-16",
@@ -885,6 +900,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.ArrowRight_16]: "61703",
   [Nonicons.ArrowSwitch_16]: "61704",
   [Nonicons.ArrowUp_16]: "61705",
+  [Nonicons.Babel_16]: "61989",
   [Nonicons.Backbone_16]: "61706",
   [Nonicons.Beaker_16]: "61707",
   [Nonicons.Bell_16]: "61708",
@@ -902,6 +918,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.CPlusplus_16]: "61719",
   [Nonicons.CSharp_16]: "61720",
   [Nonicons.Calendar_16]: "61721",
+  [Nonicons.Capacitor_16]: "61993",
   [Nonicons.Check_16]: "61722",
   [Nonicons.CheckCircle_16]: "61723",
   [Nonicons.CheckCircleFill_16]: "61724",
@@ -1002,6 +1019,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Infinity_16]: "61803",
   [Nonicons.Info_16]: "61804",
   [Nonicons.Interface_16]: "61955",
+  [Nonicons.Ionic_16]: "61990",
   [Nonicons.IssueClosed_16]: "61805",
   [Nonicons.IssueDraft_16]: "61978",
   [Nonicons.IssueOpened_16]: "61806",
@@ -1039,6 +1057,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.MortarBoard_16]: "61836",
   [Nonicons.MultiSelect_16]: "61948",
   [Nonicons.Mute_16]: "61837",
+  [Nonicons.Next_16]: "61991",
   [Nonicons.Nginx_16]: "61838",
   [Nonicons.NoEntry_16]: "61839",
   [Nonicons.Node_16]: "61840",
@@ -1118,6 +1137,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Strikethrough_16]: "61904",
   [Nonicons.Struct_16]: "61958",
   [Nonicons.Sun_16]: "61905",
+  [Nonicons.Svelte_16]: "61992",
   [Nonicons.Swift_16]: "61906",
   [Nonicons.Sync_16]: "61907",
   [Nonicons.Table_16]: "61970",

@@ -1,7 +1,7 @@
 @font-face {
     font-family: "nonicons";
-    src: url("./nonicons.ttf?879ddcc2d24532e47a180e198f7db3ca") format("truetype"),
-url("./nonicons.woff?879ddcc2d24532e47a180e198f7db3ca") format("woff");
+    src: url("./nonicons.ttf?262b63a029bb3f180b34d3c1813ca25c") format("truetype"),
+url("./nonicons.woff?262b63a029bb3f180b34d3c1813ca25c") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -890,4 +890,19 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-sort-desc-16:before {
     content: "\f224";
+}
+.icon-babel-16:before {
+    content: "\f225";
+}
+.icon-ionic-16:before {
+    content: "\f226";
+}
+.icon-next-16:before {
+    content: "\f227";
+}
+.icon-svelte-16:before {
+    content: "\f228";
+}
+.icon-capacitor-16:before {
+    content: "\f229";
 }
