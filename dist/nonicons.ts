@@ -112,6 +112,7 @@ export type NoniconsId =
   | "go-16"
   | "grabber-16"
   | "graph-16"
+  | "graphql-16"
   | "hash-16"
   | "heading-16"
   | "heart-16"
@@ -409,6 +410,7 @@ export type NoniconsKey =
   | "Go_16"
   | "Grabber_16"
   | "Graph_16"
+  | "Graphql_16"
   | "Hash_16"
   | "Heading_16"
   | "Heart_16"
@@ -706,6 +708,7 @@ export enum Nonicons {
   Go_16 = "go-16",
   Grabber_16 = "grabber-16",
   Graph_16 = "graph-16",
+  Graphql_16 = "graphql-16",
   Hash_16 = "hash-16",
   Heading_16 = "heading-16",
   Heart_16 = "heart-16",
@@ -1004,6 +1007,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Go_16]: "61789",
   [Nonicons.Grabber_16]: "61790",
   [Nonicons.Graph_16]: "61791",
+  [Nonicons.Graphql_16]: "61994",
   [Nonicons.Hash_16]: "61977",
   [Nonicons.Heading_16]: "61792",
   [Nonicons.Heart_16]: "61793",

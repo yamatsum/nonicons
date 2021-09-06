@@ -1,7 +1,7 @@
 @font-face {
     font-family: "nonicons";
-    src: url("./nonicons.ttf?262b63a029bb3f180b34d3c1813ca25c") format("truetype"),
-url("./nonicons.woff?262b63a029bb3f180b34d3c1813ca25c") format("woff");
+    src: url("./nonicons.ttf?c6caf59a0c0ca07a716f6f447947efa1") format("truetype"),
+url("./nonicons.woff?c6caf59a0c0ca07a716f6f447947efa1") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -905,4 +905,7 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-capacitor-16:before {
     content: "\f229";
+}
+.icon-graphql-16:before {
+    content: "\f22a";
 }

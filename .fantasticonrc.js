@@ -302,6 +302,7 @@ module.exports = {
     "ionic-16": 61990,
     "next-16": 61991,
     "svelte-16": 61992,
-    "capacitor-16": 61993
+    "capacitor-16": 61993,
+    "graphql-16": 61994
   },
 };
