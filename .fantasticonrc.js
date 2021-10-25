@@ -5,6 +5,7 @@ module.exports = {
   pathOptions: {
     json: "./src/template/nonicon.json",
   },
+  descent: 40,
   codepoints: {
     "alert-16": 61697,
     "angular-16": 61698,

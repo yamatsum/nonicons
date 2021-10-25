@@ -1,7 +1,7 @@
 @font-face {
     font-family: "nonicons";
-    src: url("./nonicons.ttf?c6caf59a0c0ca07a716f6f447947efa1") format("truetype"),
-url("./nonicons.woff?c6caf59a0c0ca07a716f6f447947efa1") format("woff");
+    src: url("./nonicons.ttf?14d51e686e882749ea1317047b77db92") format("truetype"),
+url("./nonicons.woff?14d51e686e882749ea1317047b77db92") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
