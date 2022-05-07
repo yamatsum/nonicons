@@ -1,7 +1,7 @@
 @font-face {
     font-family: "nonicons";
-    src: url("./nonicons.ttf?3e6f17db1507ba4ca8b1c675eb62189c") format("truetype"),
-url("./nonicons.woff?3e6f17db1507ba4ca8b1c675eb62189c") format("woff");
+    src: url("./nonicons.ttf?e0c45aaecd5e4f4b5d7df3ee7ce3f17d") format("truetype"),
+url("./nonicons.woff?e0c45aaecd5e4f4b5d7df3ee7ce3f17d") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -908,4 +908,97 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-graphql-16:before {
     content: "\f22a";
+}
+.icon-accessibility-16:before {
+    content: "\f22b";
+}
+.icon-apps-16:before {
+    content: "\f22c";
+}
+.icon-bell-fill-16:before {
+    content: "\f22d";
+}
+.icon-cloud-16:before {
+    content: "\f22e";
+}
+.icon-cloud-offline-16:before {
+    content: "\f22f";
+}
+.icon-code-of-conduct-16:before {
+    content: "\f230";
+}
+.icon-feed-discussion-16:before {
+    content: "\f231";
+}
+.icon-feed-forked-16:before {
+    content: "\f232";
+}
+.icon-feed-heart-16:before {
+    content: "\f233";
+}
+.icon-feed-merged-16:before {
+    content: "\f234";
+}
+.icon-feed-person-16:before {
+    content: "\f235";
+}
+.icon-feed-repo-16:before {
+    content: "\f236";
+}
+.icon-feed-rocket-16:before {
+    content: "\f237";
+}
+.icon-feed-star-16:before {
+    content: "\f238";
+}
+.icon-feed-tag-16:before {
+    content: "\f239";
+}
+.icon-feed-trophy-16:before {
+    content: "\f23a";
+}
+.icon-file-directory-fill-16:before {
+    content: "\f23b";
+}
+.icon-file-directory-open-fill-16:before {
+    content: "\f23c";
+}
+.icon-id-badge-16:before {
+    content: "\f23d";
+}
+.icon-iterations-16:before {
+    content: "\f23e";
+}
+.icon-log-16:before {
+    content: "\f23f";
+}
+.icon-person-fill-16:before {
+    content: "\f240";
+}
+.icon-repo-deleted-16:before {
+    content: "\f241";
+}
+.icon-repo-locked-16:before {
+    content: "\f242";
+}
+.icon-single-select-16:before {
+    content: "\f243";
+}
+.icon-sliders-16:before {
+    content: "\f244";
+}
+.icon-stack-16:before {
+    content: "\f245";
+}
+.icon-tab-external-16:before {
+    content: "\f246";
+}
+.icon-telescope-fill-16:before {
+    content: "\f247";
+}
+.icon-trophy-16:before {
+    content: "\f248";
+}
+.icon-webhook-16:before {
+    content: "\f249";
 }
