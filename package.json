@@ -24,6 +24,6 @@
   "dependencies": {
     "fantasticon": "^1.2.3",
     "octicons": "https://github.com/primer/octicons#v17.1.0",
-    "oslllo-svg-fixer": "^1.4.1"
+    "oslllo-svg-fixer": "^2.1.1"
   }
 }
