@@ -1,6 +1,6 @@
 {
   "name": "nonicons",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "A set of icons representing programming languages, designing & development tools.",
   "main": "index.js",
   "scripts": {
