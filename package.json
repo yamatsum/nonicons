@@ -1,6 +1,6 @@
 {
   "name": "nonicons",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "A set of icons representing programming languages, designing & development tools.",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/yamatsum/nonicons#readme",
   "dependencies": {
     "fantasticon": "^1.2.3",
-    "octicons": "https://github.com/primer/octicons#v17.1.0",
-    "oslllo-svg-fixer": "^2.1.1"
+    "octicons": "https://github.com/primer/octicons#v17.9.0",
+    "oslllo-svg-fixer": "^2.2.0"
   }
 }

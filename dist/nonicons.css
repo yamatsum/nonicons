@@ -1,7 +1,7 @@
 @font-face {
     font-family: "nonicons";
-    src: url("./nonicons.ttf?e0c45aaecd5e4f4b5d7df3ee7ce3f17d") format("truetype"),
-url("./nonicons.woff?e0c45aaecd5e4f4b5d7df3ee7ce3f17d") format("woff");
+    src: url("./nonicons.ttf?8b972f0d67147f15087eae4646b1ed95") format("truetype"),
+url("./nonicons.woff?8b972f0d67147f15087eae4646b1ed95") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -1001,4 +1001,76 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-webhook-16:before {
     content: "\f249";
+}
+.icon-accessibility-inset-16:before {
+    content: "\f24a";
+}
+.icon-alert-fill-16:before {
+    content: "\f24b";
+}
+.icon-arrow-down-left-16:before {
+    content: "\f24c";
+}
+.icon-arrow-down-right-16:before {
+    content: "\f24d";
+}
+.icon-arrow-up-left-16:before {
+    content: "\f24e";
+}
+.icon-arrow-up-right-16:before {
+    content: "\f24f";
+}
+.icon-cache-16:before {
+    content: "\f250";
+}
+.icon-checkbox-16:before {
+    content: "\f251";
+}
+.icon-clock-fill-16:before {
+    content: "\f252";
+}
+.icon-command-palette-16:before {
+    content: "\f253";
+}
+.icon-copilot-16:before {
+    content: "\f254";
+}
+.icon-copilot-error-16:before {
+    content: "\f255";
+}
+.icon-copilot-warning-16:before {
+    content: "\f256";
+}
+.icon-file-added-16:before {
+    content: "\f257";
+}
+.icon-file-moved-16:before {
+    content: "\f258";
+}
+.icon-file-removed-16:before {
+    content: "\f259";
+}
+.icon-git-merge-queue-16:before {
+    content: "\f25a";
+}
+.icon-issue-tracked-by-16:before {
+    content: "\f25b";
+}
+.icon-issue-tracked-in-16:before {
+    content: "\f25c";
+}
+.icon-paperclip-16:before {
+    content: "\f25d";
+}
+.icon-project-roadmap-16:before {
+    content: "\f25e";
+}
+.icon-project-symlink-16:before {
+    content: "\f25f";
+}
+.icon-shield-slash-16:before {
+    content: "\f260";
+}
+.icon-skip-fill-16:before {
+    content: "\f261";
 }
