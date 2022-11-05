@@ -233,6 +233,7 @@ export type NoniconsId =
   | "plus-16"
   | "plus-circle-16"
   | "prettier-16"
+  | "prisma-16"
   | "project-16"
   | "project-roadmap-16"
   | "project-symlink-16"
@@ -581,6 +582,7 @@ export type NoniconsKey =
   | "Plus_16"
   | "PlusCircle_16"
   | "Prettier_16"
+  | "Prisma_16"
   | "Project_16"
   | "ProjectRoadmap_16"
   | "ProjectSymlink_16"
@@ -929,6 +931,7 @@ export enum Nonicons {
   Plus_16 = "plus-16",
   PlusCircle_16 = "plus-circle-16",
   Prettier_16 = "prettier-16",
+  Prisma_16 = "prisma-16",
   Project_16 = "project-16",
   ProjectRoadmap_16 = "project-roadmap-16",
   ProjectSymlink_16 = "project-symlink-16",
@@ -1278,9 +1281,10 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Plus_16]: "61859",
   [Nonicons.PlusCircle_16]: "61860",
   [Nonicons.Prettier_16]: "61982",
+  [Nonicons.Prisma_16]: "62046",
   [Nonicons.Project_16]: "61861",
-  [Nonicons.ProjectRoadmap_16]: "62046",
-  [Nonicons.ProjectSymlink_16]: "62047",
+  [Nonicons.ProjectRoadmap_16]: "62047",
+  [Nonicons.ProjectSymlink_16]: "62048",
   [Nonicons.Pulse_16]: "61862",
   [Nonicons.Python_16]: "61863",
   [Nonicons.Question_16]: "61864",
@@ -1312,7 +1316,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Shield_16]: "61889",
   [Nonicons.ShieldCheck_16]: "61890",
   [Nonicons.ShieldLock_16]: "61891",
-  [Nonicons.ShieldSlash_16]: "62048",
+  [Nonicons.ShieldSlash_16]: "62049",
   [Nonicons.ShieldX_16]: "61892",
   [Nonicons.SidebarCollapse_16]: "61968",
   [Nonicons.SidebarExpand_16]: "61969",
@@ -1320,7 +1324,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.SignOut_16]: "61894",
   [Nonicons.SingleSelect_16]: "62019",
   [Nonicons.Skip_16]: "61895",
-  [Nonicons.SkipFill_16]: "62049",
+  [Nonicons.SkipFill_16]: "62050",
   [Nonicons.Sliders_16]: "62020",
   [Nonicons.Smiley_16]: "61896",
   [Nonicons.Snippet_16]: "61957",

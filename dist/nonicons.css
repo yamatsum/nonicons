@@ -1,7 +1,7 @@
 @font-face {
     font-family: "nonicons";
-    src: url("./nonicons.ttf?8b972f0d67147f15087eae4646b1ed95") format("truetype"),
-url("./nonicons.woff?8b972f0d67147f15087eae4646b1ed95") format("woff");
+    src: url("./nonicons.ttf?8f6b90f40936d2c4aecb28ed744fa5b4") format("truetype"),
+url("./nonicons.woff?8f6b90f40936d2c4aecb28ed744fa5b4") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -1062,15 +1062,18 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-paperclip-16:before {
     content: "\f25d";
 }
-.icon-project-roadmap-16:before {
+.icon-prisma-16:before {
     content: "\f25e";
 }
-.icon-project-symlink-16:before {
+.icon-project-roadmap-16:before {
     content: "\f25f";
 }
-.icon-shield-slash-16:before {
+.icon-project-symlink-16:before {
     content: "\f260";
 }
-.icon-skip-fill-16:before {
+.icon-shield-slash-16:before {
     content: "\f261";
+}
+.icon-skip-fill-16:before {
+    content: "\f262";
 }
