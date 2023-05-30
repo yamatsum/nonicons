@@ -1,7 +1,7 @@
 @font-face {
     font-family: "nonicons";
-    src: url("./nonicons.ttf?f84a5b5376dc5777ddd3121f9d11bde8") format("truetype"),
-url("./nonicons.woff?f84a5b5376dc5777ddd3121f9d11bde8") format("woff");
+    src: url("./nonicons.ttf?aac2b3b0504ca696217d0bbc2bdb6191") format("truetype"),
+url("./nonicons.woff?aac2b3b0504ca696217d0bbc2bdb6191") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -1089,57 +1089,72 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-discussion-outdated-16:before {
     content: "\f266";
 }
-.icon-fiscal-host-16:before {
+.icon-error-16:before {
     content: "\f267";
 }
-.icon-goal-16:before {
+.icon-fiscal-host-16:before {
     content: "\f268";
 }
-.icon-issue-tracks-16:before {
+.icon-goal-16:before {
     content: "\f269";
 }
-.icon-move-to-bottom-16:before {
+.icon-issue-tracks-16:before {
     content: "\f26a";
 }
-.icon-move-to-end-16:before {
+.icon-layout-16:before {
     content: "\f26b";
 }
-.icon-move-to-start-16:before {
+.icon-loading-16:before {
     content: "\f26c";
 }
-.icon-move-to-top-16:before {
+.icon-move-to-bottom-16:before {
     content: "\f26d";
 }
-.icon-passkey-fill-16:before {
+.icon-move-to-end-16:before {
     content: "\f26e";
 }
-.icon-pin-slash-16:before {
+.icon-move-to-start-16:before {
     content: "\f26f";
 }
-.icon-project-template-16:before {
+.icon-move-to-top-16:before {
     content: "\f270";
 }
-.icon-read-16:before {
+.icon-not-found-16:before {
     content: "\f271";
 }
-.icon-rel-file-path-16:before {
+.icon-passkey-fill-16:before {
     content: "\f272";
 }
-.icon-sparkle-fill-16:before {
+.icon-pin-slash-16:before {
     content: "\f273";
 }
-.icon-sponsor-tiers-16:before {
+.icon-project-template-16:before {
     content: "\f274";
 }
-.icon-unlink-16:before {
+.icon-read-16:before {
     content: "\f275";
 }
-.icon-unread-16:before {
+.icon-rel-file-path-16:before {
     content: "\f276";
 }
-.icon-zoom-in-16:before {
+.icon-sparkle-fill-16:before {
     content: "\f277";
 }
-.icon-zoom-out-16:before {
+.icon-sponsor-tiers-16:before {
     content: "\f278";
+}
+.icon-template-16:before {
+    content: "\f279";
+}
+.icon-unlink-16:before {
+    content: "\f27a";
+}
+.icon-unread-16:before {
+    content: "\f27b";
+}
+.icon-zoom-in-16:before {
+    content: "\f27c";
+}
+.icon-zoom-out-16:before {
+    content: "\f27d";
 }

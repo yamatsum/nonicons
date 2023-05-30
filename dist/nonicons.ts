@@ -102,6 +102,7 @@ export type NoniconsId =
   | "elixir-16"
   | "ellipsis-16"
   | "elm-16"
+  | "error-16"
   | "eslint-16"
   | "eye-16"
   | "eye-closed-16"
@@ -188,11 +189,13 @@ export type NoniconsId =
   | "kotlin-16"
   | "kubernetes-16"
   | "law-16"
+  | "layout-16"
   | "light-bulb-16"
   | "link-16"
   | "link-external-16"
   | "list-ordered-16"
   | "list-unordered-16"
+  | "loading-16"
   | "location-16"
   | "lock-16"
   | "log-16"
@@ -220,6 +223,7 @@ export type NoniconsId =
   | "no-entry-16"
   | "node-16"
   | "north-star-16"
+  | "not-found-16"
   | "note-16"
   | "npm-16"
   | "number-16"
@@ -320,6 +324,7 @@ export type NoniconsId =
   | "tasklist-16"
   | "telescope-16"
   | "telescope-fill-16"
+  | "template-16"
   | "terminal-16"
   | "terraform-16"
   | "three-bars-16"
@@ -473,6 +478,7 @@ export type NoniconsKey =
   | "Elixir_16"
   | "Ellipsis_16"
   | "Elm_16"
+  | "Error_16"
   | "Eslint_16"
   | "Eye_16"
   | "EyeClosed_16"
@@ -559,11 +565,13 @@ export type NoniconsKey =
   | "Kotlin_16"
   | "Kubernetes_16"
   | "Law_16"
+  | "Layout_16"
   | "LightBulb_16"
   | "Link_16"
   | "LinkExternal_16"
   | "ListOrdered_16"
   | "ListUnordered_16"
+  | "Loading_16"
   | "Location_16"
   | "Lock_16"
   | "Log_16"
@@ -591,6 +599,7 @@ export type NoniconsKey =
   | "NoEntry_16"
   | "Node_16"
   | "NorthStar_16"
+  | "NotFound_16"
   | "Note_16"
   | "Npm_16"
   | "Number_16"
@@ -691,6 +700,7 @@ export type NoniconsKey =
   | "Tasklist_16"
   | "Telescope_16"
   | "TelescopeFill_16"
+  | "Template_16"
   | "Terminal_16"
   | "Terraform_16"
   | "ThreeBars_16"
@@ -844,6 +854,7 @@ export enum Nonicons {
   Elixir_16 = "elixir-16",
   Ellipsis_16 = "ellipsis-16",
   Elm_16 = "elm-16",
+  Error_16 = "error-16",
   Eslint_16 = "eslint-16",
   Eye_16 = "eye-16",
   EyeClosed_16 = "eye-closed-16",
@@ -930,11 +941,13 @@ export enum Nonicons {
   Kotlin_16 = "kotlin-16",
   Kubernetes_16 = "kubernetes-16",
   Law_16 = "law-16",
+  Layout_16 = "layout-16",
   LightBulb_16 = "light-bulb-16",
   Link_16 = "link-16",
   LinkExternal_16 = "link-external-16",
   ListOrdered_16 = "list-ordered-16",
   ListUnordered_16 = "list-unordered-16",
+  Loading_16 = "loading-16",
   Location_16 = "location-16",
   Lock_16 = "lock-16",
   Log_16 = "log-16",
@@ -962,6 +975,7 @@ export enum Nonicons {
   NoEntry_16 = "no-entry-16",
   Node_16 = "node-16",
   NorthStar_16 = "north-star-16",
+  NotFound_16 = "not-found-16",
   Note_16 = "note-16",
   Npm_16 = "npm-16",
   Number_16 = "number-16",
@@ -1062,6 +1076,7 @@ export enum Nonicons {
   Tasklist_16 = "tasklist-16",
   Telescope_16 = "telescope-16",
   TelescopeFill_16 = "telescope-fill-16",
+  Template_16 = "template-16",
   Terminal_16 = "terminal-16",
   Terraform_16 = "terraform-16",
   ThreeBars_16 = "three-bars-16",
@@ -1216,6 +1231,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Elixir_16]: "61971",
   [Nonicons.Ellipsis_16]: "61762",
   [Nonicons.Elm_16]: "61763",
+  [Nonicons.Error_16]: "62055",
   [Nonicons.Eslint_16]: "61981",
   [Nonicons.Eye_16]: "61764",
   [Nonicons.EyeClosed_16]: "61765",
@@ -1245,7 +1261,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.FileSymlinkFile_16]: "61774",
   [Nonicons.FileZip_16]: "61775",
   [Nonicons.Filter_16]: "61776",
-  [Nonicons.FiscalHost_16]: "62055",
+  [Nonicons.FiscalHost_16]: "62056",
   [Nonicons.Flame_16]: "61777",
   [Nonicons.Fold_16]: "61778",
   [Nonicons.FoldDown_16]: "61779",
@@ -1262,7 +1278,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.GitPullRequestDraft_16]: "61976",
   [Nonicons.Globe_16]: "61788",
   [Nonicons.Go_16]: "61789",
-  [Nonicons.Goal_16]: "62056",
+  [Nonicons.Goal_16]: "62057",
   [Nonicons.Grabber_16]: "61790",
   [Nonicons.Graph_16]: "61791",
   [Nonicons.Graphql_16]: "61994",
@@ -1289,7 +1305,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.IssueReopened_16]: "61807",
   [Nonicons.IssueTrackedBy_16]: "62043",
   [Nonicons.IssueTrackedIn_16]: "62044",
-  [Nonicons.IssueTracks_16]: "62057",
+  [Nonicons.IssueTracks_16]: "62058",
   [Nonicons.Italic_16]: "61808",
   [Nonicons.Iterations_16]: "62014",
   [Nonicons.Java_16]: "61809",
@@ -1302,11 +1318,13 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Kotlin_16]: "61814",
   [Nonicons.Kubernetes_16]: "61815",
   [Nonicons.Law_16]: "61816",
+  [Nonicons.Layout_16]: "62059",
   [Nonicons.LightBulb_16]: "61817",
   [Nonicons.Link_16]: "61818",
   [Nonicons.LinkExternal_16]: "61819",
   [Nonicons.ListOrdered_16]: "61820",
   [Nonicons.ListUnordered_16]: "61821",
+  [Nonicons.Loading_16]: "62060",
   [Nonicons.Location_16]: "61822",
   [Nonicons.Lock_16]: "61823",
   [Nonicons.Log_16]: "62015",
@@ -1323,10 +1341,10 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Mirror_16]: "61834",
   [Nonicons.Moon_16]: "61835",
   [Nonicons.MortarBoard_16]: "61836",
-  [Nonicons.MoveToBottom_16]: "62058",
-  [Nonicons.MoveToEnd_16]: "62059",
-  [Nonicons.MoveToStart_16]: "62060",
-  [Nonicons.MoveToTop_16]: "62061",
+  [Nonicons.MoveToBottom_16]: "62061",
+  [Nonicons.MoveToEnd_16]: "62062",
+  [Nonicons.MoveToStart_16]: "62063",
+  [Nonicons.MoveToTop_16]: "62064",
   [Nonicons.MultiSelect_16]: "61948",
   [Nonicons.Mute_16]: "61837",
   [Nonicons.Next_16]: "61991",
@@ -1334,6 +1352,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.NoEntry_16]: "61839",
   [Nonicons.Node_16]: "61840",
   [Nonicons.NorthStar_16]: "61841",
+  [Nonicons.NotFound_16]: "62065",
   [Nonicons.Note_16]: "61842",
   [Nonicons.Npm_16]: "61843",
   [Nonicons.Number_16]: "61949",
@@ -1344,7 +1363,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Paintbrush_16]: "61849",
   [Nonicons.PaperAirplane_16]: "61850",
   [Nonicons.Paperclip_16]: "62045",
-  [Nonicons.PasskeyFill_16]: "62062",
+  [Nonicons.PasskeyFill_16]: "62066",
   [Nonicons.Paste_16]: "61986",
   [Nonicons.Pencil_16]: "61851",
   [Nonicons.People_16]: "61852",
@@ -1354,7 +1373,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.PersonFill_16]: "62016",
   [Nonicons.Php_16]: "61855",
   [Nonicons.Pin_16]: "61856",
-  [Nonicons.PinSlash_16]: "62063",
+  [Nonicons.PinSlash_16]: "62067",
   [Nonicons.Play_16]: "61857",
   [Nonicons.Plug_16]: "61858",
   [Nonicons.Plus_16]: "61859",
@@ -1364,15 +1383,15 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Project_16]: "61861",
   [Nonicons.ProjectRoadmap_16]: "62047",
   [Nonicons.ProjectSymlink_16]: "62048",
-  [Nonicons.ProjectTemplate_16]: "62064",
+  [Nonicons.ProjectTemplate_16]: "62068",
   [Nonicons.Pulse_16]: "61862",
   [Nonicons.Python_16]: "61863",
   [Nonicons.Question_16]: "61864",
   [Nonicons.Quote_16]: "61865",
   [Nonicons.R_16]: "61866",
   [Nonicons.React_16]: "61867",
-  [Nonicons.Read_16]: "62065",
-  [Nonicons.RelFilePath_16]: "62066",
+  [Nonicons.Read_16]: "62069",
+  [Nonicons.RelFilePath_16]: "62070",
   [Nonicons.Reply_16]: "61869",
   [Nonicons.Repo_16]: "61870",
   [Nonicons.RepoClone_16]: "61871",
@@ -1412,8 +1431,8 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Snippet_16]: "61957",
   [Nonicons.SortAsc_16]: "61987",
   [Nonicons.SortDesc_16]: "61988",
-  [Nonicons.SparkleFill_16]: "62067",
-  [Nonicons.SponsorTiers_16]: "62068",
+  [Nonicons.SparkleFill_16]: "62071",
+  [Nonicons.SponsorTiers_16]: "62072",
   [Nonicons.Square_16]: "61897",
   [Nonicons.SquareFill_16]: "61898",
   [Nonicons.Squirrel_16]: "61899",
@@ -1434,6 +1453,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Tasklist_16]: "61909",
   [Nonicons.Telescope_16]: "61910",
   [Nonicons.TelescopeFill_16]: "62023",
+  [Nonicons.Template_16]: "62073",
   [Nonicons.Terminal_16]: "61911",
   [Nonicons.Terraform_16]: "61972",
   [Nonicons.ThreeBars_16]: "61912",
@@ -1452,10 +1472,10 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Typescript_16]: "61923",
   [Nonicons.Typography_16]: "61924",
   [Nonicons.Unfold_16]: "61925",
-  [Nonicons.Unlink_16]: "62069",
+  [Nonicons.Unlink_16]: "62074",
   [Nonicons.Unlock_16]: "61926",
   [Nonicons.Unmute_16]: "61927",
-  [Nonicons.Unread_16]: "62070",
+  [Nonicons.Unread_16]: "62075",
   [Nonicons.Unverified_16]: "61928",
   [Nonicons.Upload_16]: "61929",
   [Nonicons.Variable_16]: "61960",
@@ -1480,6 +1500,6 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Yaml_16]: "61945",
   [Nonicons.Yarn_16]: "61946",
   [Nonicons.Zap_16]: "61947",
-  [Nonicons.ZoomIn_16]: "62071",
-  [Nonicons.ZoomOut_16]: "62072",
+  [Nonicons.ZoomIn_16]: "62076",
+  [Nonicons.ZoomOut_16]: "62077",
 };
