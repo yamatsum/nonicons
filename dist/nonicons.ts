@@ -83,6 +83,7 @@ export type NoniconsId =
   | "device-camera-video-16"
   | "device-desktop-16"
   | "device-mobile-16"
+  | "devices-16"
   | "diamond-16"
   | "diff-16"
   | "diff-added-16"
@@ -90,6 +91,9 @@ export type NoniconsId =
   | "diff-modified-16"
   | "diff-removed-16"
   | "diff-renamed-16"
+  | "discussion-closed-16"
+  | "discussion-duplicate-16"
+  | "discussion-outdated-16"
   | "docker-16"
   | "dot-16"
   | "dot-fill-16"
@@ -127,6 +131,7 @@ export type NoniconsId =
   | "file-symlink-file-16"
   | "file-zip-16"
   | "filter-16"
+  | "fiscal-host-16"
   | "flame-16"
   | "fold-16"
   | "fold-down-16"
@@ -143,6 +148,7 @@ export type NoniconsId =
   | "git-pull-request-draft-16"
   | "globe-16"
   | "go-16"
+  | "goal-16"
   | "grabber-16"
   | "graph-16"
   | "graphql-16"
@@ -169,6 +175,7 @@ export type NoniconsId =
   | "issue-reopened-16"
   | "issue-tracked-by-16"
   | "issue-tracked-in-16"
+  | "issue-tracks-16"
   | "italic-16"
   | "iterations-16"
   | "java-16"
@@ -202,6 +209,10 @@ export type NoniconsId =
   | "mirror-16"
   | "moon-16"
   | "mortar-board-16"
+  | "move-to-bottom-16"
+  | "move-to-end-16"
+  | "move-to-start-16"
+  | "move-to-top-16"
   | "multi-select-16"
   | "mute-16"
   | "next-16"
@@ -219,6 +230,7 @@ export type NoniconsId =
   | "paintbrush-16"
   | "paper-airplane-16"
   | "paperclip-16"
+  | "passkey-fill-16"
   | "paste-16"
   | "pencil-16"
   | "people-16"
@@ -228,6 +240,7 @@ export type NoniconsId =
   | "person-fill-16"
   | "php-16"
   | "pin-16"
+  | "pin-slash-16"
   | "play-16"
   | "plug-16"
   | "plus-16"
@@ -237,12 +250,15 @@ export type NoniconsId =
   | "project-16"
   | "project-roadmap-16"
   | "project-symlink-16"
+  | "project-template-16"
   | "pulse-16"
   | "python-16"
   | "question-16"
   | "quote-16"
   | "r-16"
   | "react-16"
+  | "read-16"
+  | "rel-file-path-16"
   | "reply-16"
   | "repo-16"
   | "repo-clone-16"
@@ -282,6 +298,8 @@ export type NoniconsId =
   | "snippet-16"
   | "sort-asc-16"
   | "sort-desc-16"
+  | "sparkle-fill-16"
+  | "sponsor-tiers-16"
   | "square-16"
   | "square-fill-16"
   | "squirrel-16"
@@ -320,8 +338,10 @@ export type NoniconsId =
   | "typescript-16"
   | "typography-16"
   | "unfold-16"
+  | "unlink-16"
   | "unlock-16"
   | "unmute-16"
+  | "unread-16"
   | "unverified-16"
   | "upload-16"
   | "variable-16"
@@ -345,7 +365,9 @@ export type NoniconsId =
   | "x-circle-fill-16"
   | "yaml-16"
   | "yarn-16"
-  | "zap-16";
+  | "zap-16"
+  | "zoom-in-16"
+  | "zoom-out-16";
 
 export type NoniconsKey =
   | "Accessibility_16"
@@ -432,6 +454,7 @@ export type NoniconsKey =
   | "DeviceCameraVideo_16"
   | "DeviceDesktop_16"
   | "DeviceMobile_16"
+  | "Devices_16"
   | "Diamond_16"
   | "Diff_16"
   | "DiffAdded_16"
@@ -439,6 +462,9 @@ export type NoniconsKey =
   | "DiffModified_16"
   | "DiffRemoved_16"
   | "DiffRenamed_16"
+  | "DiscussionClosed_16"
+  | "DiscussionDuplicate_16"
+  | "DiscussionOutdated_16"
   | "Docker_16"
   | "Dot_16"
   | "DotFill_16"
@@ -476,6 +502,7 @@ export type NoniconsKey =
   | "FileSymlinkFile_16"
   | "FileZip_16"
   | "Filter_16"
+  | "FiscalHost_16"
   | "Flame_16"
   | "Fold_16"
   | "FoldDown_16"
@@ -492,6 +519,7 @@ export type NoniconsKey =
   | "GitPullRequestDraft_16"
   | "Globe_16"
   | "Go_16"
+  | "Goal_16"
   | "Grabber_16"
   | "Graph_16"
   | "Graphql_16"
@@ -518,6 +546,7 @@ export type NoniconsKey =
   | "IssueReopened_16"
   | "IssueTrackedBy_16"
   | "IssueTrackedIn_16"
+  | "IssueTracks_16"
   | "Italic_16"
   | "Iterations_16"
   | "Java_16"
@@ -551,6 +580,10 @@ export type NoniconsKey =
   | "Mirror_16"
   | "Moon_16"
   | "MortarBoard_16"
+  | "MoveToBottom_16"
+  | "MoveToEnd_16"
+  | "MoveToStart_16"
+  | "MoveToTop_16"
   | "MultiSelect_16"
   | "Mute_16"
   | "Next_16"
@@ -568,6 +601,7 @@ export type NoniconsKey =
   | "Paintbrush_16"
   | "PaperAirplane_16"
   | "Paperclip_16"
+  | "PasskeyFill_16"
   | "Paste_16"
   | "Pencil_16"
   | "People_16"
@@ -577,6 +611,7 @@ export type NoniconsKey =
   | "PersonFill_16"
   | "Php_16"
   | "Pin_16"
+  | "PinSlash_16"
   | "Play_16"
   | "Plug_16"
   | "Plus_16"
@@ -586,12 +621,15 @@ export type NoniconsKey =
   | "Project_16"
   | "ProjectRoadmap_16"
   | "ProjectSymlink_16"
+  | "ProjectTemplate_16"
   | "Pulse_16"
   | "Python_16"
   | "Question_16"
   | "Quote_16"
   | "R_16"
   | "React_16"
+  | "Read_16"
+  | "RelFilePath_16"
   | "Reply_16"
   | "Repo_16"
   | "RepoClone_16"
@@ -631,6 +669,8 @@ export type NoniconsKey =
   | "Snippet_16"
   | "SortAsc_16"
   | "SortDesc_16"
+  | "SparkleFill_16"
+  | "SponsorTiers_16"
   | "Square_16"
   | "SquareFill_16"
   | "Squirrel_16"
@@ -669,8 +709,10 @@ export type NoniconsKey =
   | "Typescript_16"
   | "Typography_16"
   | "Unfold_16"
+  | "Unlink_16"
   | "Unlock_16"
   | "Unmute_16"
+  | "Unread_16"
   | "Unverified_16"
   | "Upload_16"
   | "Variable_16"
@@ -694,7 +736,9 @@ export type NoniconsKey =
   | "XCircleFill_16"
   | "Yaml_16"
   | "Yarn_16"
-  | "Zap_16";
+  | "Zap_16"
+  | "ZoomIn_16"
+  | "ZoomOut_16";
 
 export enum Nonicons {
   Accessibility_16 = "accessibility-16",
@@ -781,6 +825,7 @@ export enum Nonicons {
   DeviceCameraVideo_16 = "device-camera-video-16",
   DeviceDesktop_16 = "device-desktop-16",
   DeviceMobile_16 = "device-mobile-16",
+  Devices_16 = "devices-16",
   Diamond_16 = "diamond-16",
   Diff_16 = "diff-16",
   DiffAdded_16 = "diff-added-16",
@@ -788,6 +833,9 @@ export enum Nonicons {
   DiffModified_16 = "diff-modified-16",
   DiffRemoved_16 = "diff-removed-16",
   DiffRenamed_16 = "diff-renamed-16",
+  DiscussionClosed_16 = "discussion-closed-16",
+  DiscussionDuplicate_16 = "discussion-duplicate-16",
+  DiscussionOutdated_16 = "discussion-outdated-16",
   Docker_16 = "docker-16",
   Dot_16 = "dot-16",
   DotFill_16 = "dot-fill-16",
@@ -825,6 +873,7 @@ export enum Nonicons {
   FileSymlinkFile_16 = "file-symlink-file-16",
   FileZip_16 = "file-zip-16",
   Filter_16 = "filter-16",
+  FiscalHost_16 = "fiscal-host-16",
   Flame_16 = "flame-16",
   Fold_16 = "fold-16",
   FoldDown_16 = "fold-down-16",
@@ -841,6 +890,7 @@ export enum Nonicons {
   GitPullRequestDraft_16 = "git-pull-request-draft-16",
   Globe_16 = "globe-16",
   Go_16 = "go-16",
+  Goal_16 = "goal-16",
   Grabber_16 = "grabber-16",
   Graph_16 = "graph-16",
   Graphql_16 = "graphql-16",
@@ -867,6 +917,7 @@ export enum Nonicons {
   IssueReopened_16 = "issue-reopened-16",
   IssueTrackedBy_16 = "issue-tracked-by-16",
   IssueTrackedIn_16 = "issue-tracked-in-16",
+  IssueTracks_16 = "issue-tracks-16",
   Italic_16 = "italic-16",
   Iterations_16 = "iterations-16",
   Java_16 = "java-16",
@@ -900,6 +951,10 @@ export enum Nonicons {
   Mirror_16 = "mirror-16",
   Moon_16 = "moon-16",
   MortarBoard_16 = "mortar-board-16",
+  MoveToBottom_16 = "move-to-bottom-16",
+  MoveToEnd_16 = "move-to-end-16",
+  MoveToStart_16 = "move-to-start-16",
+  MoveToTop_16 = "move-to-top-16",
   MultiSelect_16 = "multi-select-16",
   Mute_16 = "mute-16",
   Next_16 = "next-16",
@@ -917,6 +972,7 @@ export enum Nonicons {
   Paintbrush_16 = "paintbrush-16",
   PaperAirplane_16 = "paper-airplane-16",
   Paperclip_16 = "paperclip-16",
+  PasskeyFill_16 = "passkey-fill-16",
   Paste_16 = "paste-16",
   Pencil_16 = "pencil-16",
   People_16 = "people-16",
@@ -926,6 +982,7 @@ export enum Nonicons {
   PersonFill_16 = "person-fill-16",
   Php_16 = "php-16",
   Pin_16 = "pin-16",
+  PinSlash_16 = "pin-slash-16",
   Play_16 = "play-16",
   Plug_16 = "plug-16",
   Plus_16 = "plus-16",
@@ -935,12 +992,15 @@ export enum Nonicons {
   Project_16 = "project-16",
   ProjectRoadmap_16 = "project-roadmap-16",
   ProjectSymlink_16 = "project-symlink-16",
+  ProjectTemplate_16 = "project-template-16",
   Pulse_16 = "pulse-16",
   Python_16 = "python-16",
   Question_16 = "question-16",
   Quote_16 = "quote-16",
   R_16 = "r-16",
   React_16 = "react-16",
+  Read_16 = "read-16",
+  RelFilePath_16 = "rel-file-path-16",
   Reply_16 = "reply-16",
   Repo_16 = "repo-16",
   RepoClone_16 = "repo-clone-16",
@@ -980,6 +1040,8 @@ export enum Nonicons {
   Snippet_16 = "snippet-16",
   SortAsc_16 = "sort-asc-16",
   SortDesc_16 = "sort-desc-16",
+  SparkleFill_16 = "sparkle-fill-16",
+  SponsorTiers_16 = "sponsor-tiers-16",
   Square_16 = "square-16",
   SquareFill_16 = "square-fill-16",
   Squirrel_16 = "squirrel-16",
@@ -1018,8 +1080,10 @@ export enum Nonicons {
   Typescript_16 = "typescript-16",
   Typography_16 = "typography-16",
   Unfold_16 = "unfold-16",
+  Unlink_16 = "unlink-16",
   Unlock_16 = "unlock-16",
   Unmute_16 = "unmute-16",
+  Unread_16 = "unread-16",
   Unverified_16 = "unverified-16",
   Upload_16 = "upload-16",
   Variable_16 = "variable-16",
@@ -1044,6 +1108,8 @@ export enum Nonicons {
   Yaml_16 = "yaml-16",
   Yarn_16 = "yarn-16",
   Zap_16 = "zap-16",
+  ZoomIn_16 = "zoom-in-16",
+  ZoomOut_16 = "zoom-out-16",
 }
 
 export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
@@ -1131,6 +1197,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.DeviceCameraVideo_16]: "61749",
   [Nonicons.DeviceDesktop_16]: "61750",
   [Nonicons.DeviceMobile_16]: "61751",
+  [Nonicons.Devices_16]: "62051",
   [Nonicons.Diamond_16]: "61974",
   [Nonicons.Diff_16]: "61752",
   [Nonicons.DiffAdded_16]: "61753",
@@ -1138,6 +1205,9 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.DiffModified_16]: "61755",
   [Nonicons.DiffRemoved_16]: "61756",
   [Nonicons.DiffRenamed_16]: "61757",
+  [Nonicons.DiscussionClosed_16]: "62052",
+  [Nonicons.DiscussionDuplicate_16]: "62053",
+  [Nonicons.DiscussionOutdated_16]: "62054",
   [Nonicons.Docker_16]: "61758",
   [Nonicons.Dot_16]: "61759",
   [Nonicons.DotFill_16]: "61760",
@@ -1175,6 +1245,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.FileSymlinkFile_16]: "61774",
   [Nonicons.FileZip_16]: "61775",
   [Nonicons.Filter_16]: "61776",
+  [Nonicons.FiscalHost_16]: "62055",
   [Nonicons.Flame_16]: "61777",
   [Nonicons.Fold_16]: "61778",
   [Nonicons.FoldDown_16]: "61779",
@@ -1191,6 +1262,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.GitPullRequestDraft_16]: "61976",
   [Nonicons.Globe_16]: "61788",
   [Nonicons.Go_16]: "61789",
+  [Nonicons.Goal_16]: "62056",
   [Nonicons.Grabber_16]: "61790",
   [Nonicons.Graph_16]: "61791",
   [Nonicons.Graphql_16]: "61994",
@@ -1217,6 +1289,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.IssueReopened_16]: "61807",
   [Nonicons.IssueTrackedBy_16]: "62043",
   [Nonicons.IssueTrackedIn_16]: "62044",
+  [Nonicons.IssueTracks_16]: "62057",
   [Nonicons.Italic_16]: "61808",
   [Nonicons.Iterations_16]: "62014",
   [Nonicons.Java_16]: "61809",
@@ -1250,6 +1323,10 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Mirror_16]: "61834",
   [Nonicons.Moon_16]: "61835",
   [Nonicons.MortarBoard_16]: "61836",
+  [Nonicons.MoveToBottom_16]: "62058",
+  [Nonicons.MoveToEnd_16]: "62059",
+  [Nonicons.MoveToStart_16]: "62060",
+  [Nonicons.MoveToTop_16]: "62061",
   [Nonicons.MultiSelect_16]: "61948",
   [Nonicons.Mute_16]: "61837",
   [Nonicons.Next_16]: "61991",
@@ -1267,6 +1344,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Paintbrush_16]: "61849",
   [Nonicons.PaperAirplane_16]: "61850",
   [Nonicons.Paperclip_16]: "62045",
+  [Nonicons.PasskeyFill_16]: "62062",
   [Nonicons.Paste_16]: "61986",
   [Nonicons.Pencil_16]: "61851",
   [Nonicons.People_16]: "61852",
@@ -1276,6 +1354,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.PersonFill_16]: "62016",
   [Nonicons.Php_16]: "61855",
   [Nonicons.Pin_16]: "61856",
+  [Nonicons.PinSlash_16]: "62063",
   [Nonicons.Play_16]: "61857",
   [Nonicons.Plug_16]: "61858",
   [Nonicons.Plus_16]: "61859",
@@ -1285,12 +1364,15 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Project_16]: "61861",
   [Nonicons.ProjectRoadmap_16]: "62047",
   [Nonicons.ProjectSymlink_16]: "62048",
+  [Nonicons.ProjectTemplate_16]: "62064",
   [Nonicons.Pulse_16]: "61862",
   [Nonicons.Python_16]: "61863",
   [Nonicons.Question_16]: "61864",
   [Nonicons.Quote_16]: "61865",
   [Nonicons.R_16]: "61866",
   [Nonicons.React_16]: "61867",
+  [Nonicons.Read_16]: "62065",
+  [Nonicons.RelFilePath_16]: "62066",
   [Nonicons.Reply_16]: "61869",
   [Nonicons.Repo_16]: "61870",
   [Nonicons.RepoClone_16]: "61871",
@@ -1330,6 +1412,8 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Snippet_16]: "61957",
   [Nonicons.SortAsc_16]: "61987",
   [Nonicons.SortDesc_16]: "61988",
+  [Nonicons.SparkleFill_16]: "62067",
+  [Nonicons.SponsorTiers_16]: "62068",
   [Nonicons.Square_16]: "61897",
   [Nonicons.SquareFill_16]: "61898",
   [Nonicons.Squirrel_16]: "61899",
@@ -1368,8 +1452,10 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Typescript_16]: "61923",
   [Nonicons.Typography_16]: "61924",
   [Nonicons.Unfold_16]: "61925",
+  [Nonicons.Unlink_16]: "62069",
   [Nonicons.Unlock_16]: "61926",
   [Nonicons.Unmute_16]: "61927",
+  [Nonicons.Unread_16]: "62070",
   [Nonicons.Unverified_16]: "61928",
   [Nonicons.Upload_16]: "61929",
   [Nonicons.Variable_16]: "61960",
@@ -1394,4 +1480,6 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Yaml_16]: "61945",
   [Nonicons.Yarn_16]: "61946",
   [Nonicons.Zap_16]: "61947",
+  [Nonicons.ZoomIn_16]: "62071",
+  [Nonicons.ZoomOut_16]: "62072",
 };

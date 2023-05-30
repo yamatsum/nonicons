@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/yamatsum/nonicons#readme",
   "dependencies": {
-    "fantasticon": "^1.2.3",
-    "octicons": "https://github.com/primer/octicons#v17.9.0",
+    "fantasticon": "^2.0.0",
+    "octicons": "https://github.com/primer/octicons#v19.1.0",
     "oslllo-svg-fixer": "^2.2.0"
   }
 }

@@ -1,7 +1,7 @@
 @font-face {
     font-family: "nonicons";
-    src: url("./nonicons.ttf?43c65f33b53c6cbc7f64b5329ae051f5") format("truetype"),
-url("./nonicons.woff?43c65f33b53c6cbc7f64b5329ae051f5") format("woff");
+    src: url("./nonicons.ttf?f84a5b5376dc5777ddd3121f9d11bde8") format("truetype"),
+url("./nonicons.woff?f84a5b5376dc5777ddd3121f9d11bde8") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -1076,4 +1076,70 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-skip-fill-16:before {
     content: "\f262";
+}
+.icon-devices-16:before {
+    content: "\f263";
+}
+.icon-discussion-closed-16:before {
+    content: "\f264";
+}
+.icon-discussion-duplicate-16:before {
+    content: "\f265";
+}
+.icon-discussion-outdated-16:before {
+    content: "\f266";
+}
+.icon-fiscal-host-16:before {
+    content: "\f267";
+}
+.icon-goal-16:before {
+    content: "\f268";
+}
+.icon-issue-tracks-16:before {
+    content: "\f269";
+}
+.icon-move-to-bottom-16:before {
+    content: "\f26a";
+}
+.icon-move-to-end-16:before {
+    content: "\f26b";
+}
+.icon-move-to-start-16:before {
+    content: "\f26c";
+}
+.icon-move-to-top-16:before {
+    content: "\f26d";
+}
+.icon-passkey-fill-16:before {
+    content: "\f26e";
+}
+.icon-pin-slash-16:before {
+    content: "\f26f";
+}
+.icon-project-template-16:before {
+    content: "\f270";
+}
+.icon-read-16:before {
+    content: "\f271";
+}
+.icon-rel-file-path-16:before {
+    content: "\f272";
+}
+.icon-sparkle-fill-16:before {
+    content: "\f273";
+}
+.icon-sponsor-tiers-16:before {
+    content: "\f274";
+}
+.icon-unlink-16:before {
+    content: "\f275";
+}
+.icon-unread-16:before {
+    content: "\f276";
+}
+.icon-zoom-in-16:before {
+    content: "\f277";
+}
+.icon-zoom-out-16:before {
+    content: "\f278";
 }
