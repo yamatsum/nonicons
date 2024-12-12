@@ -21,6 +21,7 @@ export type NoniconsId =
   | "bell-16"
   | "bell-fill-16"
   | "bell-slash-16"
+  | "biome-16"
   | "blocked-16"
   | "bold-16"
   | "book-16"
@@ -339,6 +340,7 @@ export type NoniconsId =
   | "triangle-right-16"
   | "triangle-up-16"
   | "trophy-16"
+  | "turborepo-16"
   | "type-16"
   | "typescript-16"
   | "typography-16"
@@ -397,6 +399,7 @@ export type NoniconsKey =
   | "Bell_16"
   | "BellFill_16"
   | "BellSlash_16"
+  | "Biome_16"
   | "Blocked_16"
   | "Bold_16"
   | "Book_16"
@@ -715,6 +718,7 @@ export type NoniconsKey =
   | "TriangleRight_16"
   | "TriangleUp_16"
   | "Trophy_16"
+  | "Turborepo_16"
   | "Type_16"
   | "Typescript_16"
   | "Typography_16"
@@ -773,6 +777,7 @@ export enum Nonicons {
   Bell_16 = "bell-16",
   BellFill_16 = "bell-fill-16",
   BellSlash_16 = "bell-slash-16",
+  Biome_16 = "biome-16",
   Blocked_16 = "blocked-16",
   Bold_16 = "bold-16",
   Book_16 = "book-16",
@@ -1091,6 +1096,7 @@ export enum Nonicons {
   TriangleRight_16 = "triangle-right-16",
   TriangleUp_16 = "triangle-up-16",
   Trophy_16 = "trophy-16",
+  Turborepo_16 = "turborepo-16",
   Type_16 = "type-16",
   Typescript_16 = "typescript-16",
   Typography_16 = "typography-16",
@@ -1150,6 +1156,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.Bell_16]: "61708",
   [Nonicons.BellFill_16]: "61997",
   [Nonicons.BellSlash_16]: "61709",
+  [Nonicons.Biome_16]: "62078",
   [Nonicons.Blocked_16]: "61961",
   [Nonicons.Bold_16]: "61710",
   [Nonicons.Book_16]: "61711",
@@ -1468,6 +1475,7 @@ export const NONICONS_CODEPOINTS: { [key in Nonicons]: string } = {
   [Nonicons.TriangleRight_16]: "61921",
   [Nonicons.TriangleUp_16]: "61922",
   [Nonicons.Trophy_16]: "62024",
+  [Nonicons.Turborepo_16]: "62079",
   [Nonicons.Type_16]: "61959",
   [Nonicons.Typescript_16]: "61923",
   [Nonicons.Typography_16]: "61924",

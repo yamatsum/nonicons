@@ -1,7 +1,7 @@
 @font-face {
     font-family: "nonicons";
-    src: url("./nonicons.ttf?aac2b3b0504ca696217d0bbc2bdb6191") format("truetype"),
-url("./nonicons.woff?aac2b3b0504ca696217d0bbc2bdb6191") format("woff");
+    src: url("./nonicons.ttf?dd6a9eceb15337a30ae28331587b6733") format("truetype"),
+url("./nonicons.woff?dd6a9eceb15337a30ae28331587b6733") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -1157,4 +1157,10 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-zoom-out-16:before {
     content: "\f27d";
+}
+.icon-biome-16:before {
+    content: "\f27e";
+}
+.icon-turborepo-16:before {
+    content: "\f27f";
 }
